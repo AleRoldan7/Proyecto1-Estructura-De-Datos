@@ -4,9 +4,7 @@
 
 #include "ListaEnlazada.h"
 
-// ═══════════════════════════════════════════════════════════════
-//  Constructor / Destructor
-// ═══════════════════════════════════════════════════════════════
+
 
 ListaEnlazada::ListaEnlazada() {
     head = nullptr;
@@ -22,14 +20,10 @@ ListaEnlazada::~ListaEnlazada() {
     }
 }
 
-// ═══════════════════════════════════════════════════════════════
-//  LISTA DESORDENADA
-//  Inserta al final — O(n)
-//  CORRECCIÓN: se usa new Nodo(producto) para guardar el dato.
-// ═══════════════════════════════════════════════════════════════
+
 
 void ListaEnlazada::insert(Producto producto) {
-    Nodo *nodo = new Nodo(producto);   // BUG CORREGIDO: antes era new Nodo()
+    Nodo *nodo = new Nodo(producto);   /
 
     if (head == nullptr) {
         head = nodo;
@@ -44,9 +38,6 @@ void ListaEnlazada::insert(Producto producto) {
     }
 }
 
-// ───────────────────────────────────────────────────────────────
-//  imprimir — recorre e imprime todos los nodos — O(n)
-// ───────────────────────────────────────────────────────────────
 
 void ListaEnlazada::imprimir() {
     Nodo *aux = head;
@@ -67,11 +58,7 @@ void ListaEnlazada::imprimir() {
     }
 }
 
-// ───────────────────────────────────────────────────────────────
-//  buscar (lista desordenada) — búsqueda secuencial — O(n)
-//  Recorre nodo a nodo hasta hallar coincidencia por nombre.
-//  Peor caso: el producto está al final o no existe.
-// ───────────────────────────────────────────────────────────────
+
 
 void ListaEnlazada::buscar(string nombre) {
     Nodo *aux = head;
@@ -99,9 +86,7 @@ void ListaEnlazada::buscar(string nombre) {
     cout << "No existe el producto" << endl;
 }
 
-// ───────────────────────────────────────────────────────────────
-//  remove — elimina por objeto Producto (compara por código) — O(n)
-// ───────────────────────────────────────────────────────────────
+
 
 void ListaEnlazada::remove(Producto producto) {
     if (head == nullptr) {
@@ -128,9 +113,6 @@ void ListaEnlazada::remove(Producto producto) {
     }
 }
 
-// ───────────────────────────────────────────────────────────────
-//  eliminar — elimina por código de barras — O(n)
-// ───────────────────────────────────────────────────────────────
 
 void ListaEnlazada::eliminar(string codigo) {
     if (head == nullptr) return;
@@ -154,27 +136,16 @@ void ListaEnlazada::eliminar(string codigo) {
     }
 }
 
-// ═══════════════════════════════════════════════════════════════
-//  LISTA ORDENADA (por nombre, orden alfabético ascendente)
-// ═══════════════════════════════════════════════════════════════
-
-// ───────────────────────────────────────────────────────────────
-//  insertOrdenado — inserta manteniendo orden alfabético — O(n)
-//  Recorre hasta encontrar el primer nodo cuyo nombre sea mayor
-//  al del nuevo producto y lo inserta antes de él.
-// ───────────────────────────────────────────────────────────────
 
 void ListaEnlazada::insertOrdenado(Producto producto) {
     Nodo *nodo = new Nodo(producto);
 
-    // Caso 1: lista vacía o nuevo nodo va antes que el head
     if (head == nullptr || producto.getNombre() < head->getProducto().getNombre()) {
         nodo->setSiguiente(head);
         head = nodo;
         return;
     }
 
-    // Caso 2: buscar la posición correcta
     Nodo *actual = head;
 
     while (actual->getSiguiente() != nullptr &&
@@ -182,26 +153,18 @@ void ListaEnlazada::insertOrdenado(Producto producto) {
         actual = actual->getSiguiente();
     }
 
-    // Insertar entre actual y actual->getSiguiente()
     nodo->setSiguiente(actual->getSiguiente());
     actual->setSiguiente(nodo);
 }
 
-// ───────────────────────────────────────────────────────────────
-//  buscarOrdenado — búsqueda secuencial con corte anticipado — O(n)
-//  Aprovecha el orden: si el nombre del nodo actual ya es mayor
-//  al buscado, el producto no existe y se aborta la búsqueda.
-//  Caso promedio: O(n/2). Peor caso: O(n) (último nodo o no existe).
-// ───────────────────────────────────────────────────────────────
+
 
 void ListaEnlazada::buscarOrdenado(string nombre) {
     Nodo *aux = head;
 
     while (aux != nullptr) {
         string nombreActual = aux->getProducto().getNombre();
-
-        // Corte anticipado: si el nombre del nodo supera al buscado,
-        // ya no puede existir más adelante (la lista está ordenada).
+.
         if (nombreActual > nombre) {
             break;
         }
@@ -227,10 +190,7 @@ void ListaEnlazada::buscarOrdenado(string nombre) {
     cout << "No existe el producto" << endl;
 }
 
-// ───────────────────────────────────────────────────────────────
-//  eliminarOrdenado — elimina de la lista ordenada por nombre — O(n)
-//  Igual que eliminar() pero con corte anticipado.
-// ───────────────────────────────────────────────────────────────
+
 
 void ListaEnlazada::eliminarOrdenado(string nombre) {
     if (head == nullptr) return;
@@ -248,7 +208,6 @@ void ListaEnlazada::eliminarOrdenado(string nombre) {
     while (actual->getSiguiente() != nullptr) {
         string nombreSig = actual->getSiguiente()->getProducto().getNombre();
 
-        // Corte anticipado: si el siguiente ya supera el nombre, no existe
         if (nombreSig > nombre) return;
 
         if (nombreSig == nombre) {
@@ -262,10 +221,7 @@ void ListaEnlazada::eliminarOrdenado(string nombre) {
     }
 }
 
-// ───────────────────────────────────────────────────────────────
-//  imprimirOrdenado — imprime la lista ordenada — O(n)
-//  (mismo recorrido que imprimir, se incluye por claridad)
-// ───────────────────────────────────────────────────────────────
+
 
 void ListaEnlazada::imprimirOrdenado() {
     if (head == nullptr) {

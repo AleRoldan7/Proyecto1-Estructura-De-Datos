@@ -1,7 +1,6 @@
-// ═══════════════════════════════════════════════════════════════════
-//  main.cpp  —  Catálogo de Productos · Supermercado EDD 2026
-//  Menú con colores ANSI, preview de árboles en consola y export DOT
-// ═══════════════════════════════════════════════════════════════════
+//
+// Created by alejandro on 5/3/26.
+//
 
 #include <iostream>
 #include <string>
@@ -487,7 +486,6 @@ void eliminarDeTodo(const string &nombre, const string &fecha,
 
 
 int main() {
-    // ── Estructuras principales
     ArbolB        arbolB(3);          // grado mínimo t=3
     ArbolBMas     arbolBMas(3);
     ArbolAvl      avl;

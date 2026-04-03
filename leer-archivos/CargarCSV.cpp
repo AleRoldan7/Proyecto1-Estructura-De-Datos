@@ -9,18 +9,14 @@
 #include <string>
 using namespace std;
 
-// ═════════════════════════════════════════════════════════════
-//  Constructor
-// ═════════════════════════════════════════════════════════════
+
 
 CargarCSV::CargarCSV(const string &rutaArchivo, const string &rutaLog) {
     this->rutaArchivo = rutaArchivo;
     this->rutaLog = rutaLog;
 }
 
-// ═════════════════════════════════════════════════════════════
-//  Auxiliares privados
-// ═════════════════════════════════════════════════════════════
+
 
 string CargarCSV::quitarComillas(const string &campo) {
     string s = campo;
@@ -43,7 +39,7 @@ bool CargarCSV::parsearLinea(const string &linea, string campos[], int numCampos
         char c = linea[i];
 
         if (c == '"') {
-            // Comilla doble dentro de campo ("") → comilla literal
+            // Comilla doble dentro de campo
             if (dentroComillas && i + 1 < linea.size() && linea[i + 1] == '"') {
                 campo += '"';
                 i++;
@@ -100,9 +96,7 @@ bool CargarCSV::esEntero(const string &s) {
     return true;
 }
 
-// ─────────────────────────────────────────────────────────────
-//  rollback — deshace inserciones parciales si alguna estructura falló
-// ─────────────────────────────────────────────────────────────
+
 void CargarCSV::rollback(const Producto &p,
                          ArbolB *arbolB,
                          ArbolAvl *avl,
@@ -113,23 +107,19 @@ void CargarCSV::rollback(const Producto &p,
                          bool insertadoAVL,
                          bool insertadoHash,
                          bool insertadoLista) {
-    // Cada estructura debe exponer un método eliminar(clave).
-    // Ajusta los nombres según tu implementación de cada una.
+
     if (insertadoB) arbolB->eliminar(p.getFechaCaducidad());
     if (insertadoAVL) avl->eliminar(p.getNombre());
     if (insertadoBMas) arbolBMas->eliminar(p.getCategoria(), p.getCodigo());
     if (insertadoLista) lista->eliminar(p.getCodigo());
 }
 
-// ═════════════════════════════════════════════════════════════
-//  cargar — método principal
-// ═════════════════════════════════════════════════════════════
+
 int CargarCSV::cargar(ArbolB *arbolB,
 
                       ArbolAvl *avl,
                       ArbolBMas *arbolBMas,
                       ListaEnlazada *lista) {
-    // ── 1. Verificar existencia y legibilidad ─────────────────
     ifstream archivo(rutaArchivo);
     if (!archivo.is_open()) {
         cerr << "[CargadorCSV] ERROR: No se pudo abrir el archivo: "
@@ -137,24 +127,20 @@ int CargarCSV::cargar(ArbolB *arbolB,
         return 0;
     }
 
-    // ── Abrir log de errores ──────────────────────────────────
     ofstream log(rutaLog);
     if (!log.is_open()) {
         cerr << "[CargadorCSV] ADVERTENCIA: No se pudo crear errors.log" << endl;
     }
 
-    // ── Contadores ────────────────────────────────────────────
     int cargados = 0;
     int omitidos = 0;
     int numLinea = 0;
 
-    // ── Set interno para detectar duplicados de CodigoBarra ──
-    // (Sin std::unordered_set; usamos la propia TablaHash para verificar)
+
 
     string linea;
     const int NUM_CAMPOS = 7;
 
-    // ── 2. Saltar la cabecera ─────────────────────────────────
     if (!getline(archivo, linea)) {
         cerr << "[CargadorCSV] El archivo esta vacio." << endl;
         archivo.close();
@@ -162,11 +148,9 @@ int CargarCSV::cargar(ArbolB *arbolB,
     }
     numLinea++;
 
-    // ── 3. Procesar línea por línea ───────────────────────────
     while (getline(archivo, linea)) {
         numLinea++;
 
-        // Ignorar líneas vacías o solo con retorno de carro
         if (linea.empty() || linea == "\r") continue;
 
         // ── 3a. Parsear la línea ──────────────────────────────
@@ -185,7 +169,6 @@ int CargarCSV::cargar(ArbolB *arbolB,
         string precioStr = campos[5];
         string stockStr = campos[6];
 
-        // ── 3b. Validar campos no vacíos ──────────────────────
         if (nombre.empty() || codigoBarra.empty() || categoria.empty() ||
             fechaCaduc.empty() || marca.empty()) {
             loggear(log, numLinea, "Campo(s) obligatorio(s) vacios", linea);
@@ -193,14 +176,12 @@ int CargarCSV::cargar(ArbolB *arbolB,
             continue;
         }
 
-        // ── 3c. Validar Precio numérico ───────────────────────
         if (!esNumerico(precioStr)) {
             loggear(log, numLinea, "Precio no es numerico: " + precioStr, linea);
             omitidos++;
             continue;
         }
 
-        // ── 3d. Validar Stock entero ──────────────────────────
         if (!esEntero(stockStr)) {
             loggear(log, numLinea, "Stock no es entero: " + stockStr, linea);
             omitidos++;
@@ -211,37 +192,30 @@ int CargarCSV::cargar(ArbolB *arbolB,
         int stock = stoi(stockStr);
 
 
-        // ── 3f. Crear el objeto Producto ──────────────────────
         Producto p(nombre, codigoBarra, categoria, fechaCaduc, marca, precio, stock);
 
-        // ── 3g. Inserción atómica en todas las estructuras ────
         bool ok_B = false;
         bool ok_BMas = false;
         bool ok_AVL = false;
         bool ok_Hash = false;
         bool ok_Lista = false;
 
-        // Árbol B (clave: fechaCaducidad)
         arbolB->insertar(p);
         ok_B = true;
 
-        // Árbol B+ (clave: categoria)
         arbolBMas->insertar(p);
         ok_BMas = true;
 
-        // Árbol AVL (clave: nombre)
         avl->insert(p);
         ok_AVL = true;
 
 
-        // Lista enlazada
         lista->insert(p);
         ok_Lista = true;
 
         cargados++;
     }
 
-    // ── 4. Cerrar archivos y reportar ─────────────────────────
     archivo.close();
     if (log.is_open()) log.close();
 

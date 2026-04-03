@@ -9,12 +9,9 @@
 #include <string>
 using namespace std;
 
-// ═════════════════════════════════════════════════════════════
-//  Constructores / Destructor
-// ═════════════════════════════════════════════════════════════
 
 ArbolBMas::ArbolBMas() {
-    orden       = 3;      // grado mínimo por defecto
+    orden       = 3;
     raiz        = nullptr;
     primeraHoja = nullptr;
 }
@@ -38,14 +35,11 @@ void ArbolBMas::liberarNodo(NodoBMas *nodo) {
     delete nodo;
 }
 
-// ═════════════════════════════════════════════════════════════
-//  INSERCIÓN
-// ═════════════════════════════════════════════════════════════
+
 
 void ArbolBMas::insertar(const Producto &p) {
     const string &cat = p.getCategoria();
 
-    // ── Árbol vacío ───────────────────────────────────────────
     if (raiz == nullptr) {
         raiz = new NodoBMas(orden, true);
         raiz->setClave(0, cat);
@@ -55,7 +49,6 @@ void ArbolBMas::insertar(const Producto &p) {
         return;
     }
 
-    // ── Raíz llena: dividir y crear nueva raíz ───────────────
     if (raiz->lleno()) {
         NodoBMas *nuevaRaiz = new NodoBMas(orden, false);
         nuevaRaiz->setHijo(0, raiz);
@@ -65,7 +58,6 @@ void ArbolBMas::insertar(const Producto &p) {
         else
             dividirHijo(nuevaRaiz, 0, raiz);
 
-        // Decidir en cuál hijo insertar
         int i = (nuevaRaiz->getClave(0) <= cat) ? 1 : 0;
         insertarEnNodo(nuevaRaiz->getHijo(i), cat, p);
         raiz = nuevaRaiz;
@@ -74,14 +66,11 @@ void ArbolBMas::insertar(const Producto &p) {
     }
 }
 
-// ─────────────────────────────────────────────────────────────
-//  insertarEnNodo — baja recursivamente hasta la hoja correcta
-// ─────────────────────────────────────────────────────────────
+
 void ArbolBMas::insertarEnNodo(NodoBMas *nodo, const string &categoria, const Producto &p) {
     int i = nodo->getNumClaves() - 1;
 
     if (nodo->getEsHoja()) {
-        // ── Insertar ordenado en la hoja ──────────────────────
         while (i >= 0 && nodo->getClave(i) > categoria) {
             nodo->setClave(i + 1, nodo->getClave(i));
             nodo->setProducto(i + 1, nodo->getProducto(i));
@@ -91,9 +80,8 @@ void ArbolBMas::insertarEnNodo(NodoBMas *nodo, const string &categoria, const Pr
         nodo->setProducto(i + 1, p);
         nodo->incrementarCLaves();
     } else {
-        // ── Encontrar hijo destino ────────────────────────────
         while (i >= 0 && nodo->getClave(i) > categoria) i--;
-        i++;  // índice del hijo
+        i++;
 
         NodoBMas *hijo = nodo->getHijo(i);
 
@@ -104,24 +92,21 @@ void ArbolBMas::insertarEnNodo(NodoBMas *nodo, const string &categoria, const Pr
             else
                 dividirHijo(nodo, i, hijo);
 
-            // Reelegir hijo después del split
+            // Reelegir hijo
             if (nodo->getClave(i) <= categoria) i++;
         }
         insertarEnNodo(nodo->getHijo(i), categoria, p);
     }
 }
 
-// ─────────────────────────────────────────────────────────────
-//  dividirHojaHijo — divide un nodo HOJA lleno
-//  La clave mediana SE COPIA (no se mueve) al padre → rasgo B+
-// ─────────────────────────────────────────────────────────────
+
 void ArbolBMas::dividirHojaHijo(NodoBMas *padre, int indice, NodoBMas *hijo) {
     int t = orden;
 
     NodoBMas *nuevaHoja = new NodoBMas(t, true);
 
     // Copiar la mitad derecha al nuevo nodo hoja
-    int desde = t;   // en B+ la hoja se divide: izq tiene t claves, der tiene t-1
+    int desde = t;
     int cant   = hijo->getNumClaves() - desde;
 
     for (int j = 0; j < cant; j++) {
@@ -132,14 +117,12 @@ void ArbolBMas::dividirHojaHijo(NodoBMas *padre, int indice, NodoBMas *hijo) {
     // Reducir el hijo original
     for (int j = 0; j < cant; j++) hijo->decrementarCLaves();
 
-    // ── Mantener lista enlazada de hojas ──────────────────────
     nuevaHoja->setSiguiente(hijo->getSiguiente());
     if (hijo->getSiguiente() != nullptr)
         hijo->getSiguiente()->setAnterior(nuevaHoja);
     hijo->setSiguiente(nuevaHoja);
     nuevaHoja->setAnterior(hijo);
 
-    // ── Subir clave al padre (copia, no eliminar de hoja) ─────
     for (int j = padre->getNumClaves() - 1; j >= indice; j--) {
         padre->setClave(j + 1, padre->getClave(j));
         padre->setHijo(j + 2, padre->getHijo(j + 1));
@@ -149,16 +132,12 @@ void ArbolBMas::dividirHojaHijo(NodoBMas *padre, int indice, NodoBMas *hijo) {
     padre->incrementarCLaves();
 }
 
-// ─────────────────────────────────────────────────────────────
-//  dividirHijo — divide un nodo INTERNO lleno
-//  La clave mediana SUBE al padre y se elimina del hijo
-// ─────────────────────────────────────────────────────────────
+
 void ArbolBMas::dividirHijo(NodoBMas *padre, int indice, NodoBMas *hijo) {
     int t = orden;
 
     NodoBMas *nuevoNodo = new NodoBMas(t, false);
 
-    // Copiar mitad derecha (sin la mediana)
     for (int j = 0; j < t - 1; j++) {
         nuevoNodo->setClave(j, hijo->getClave(j + t));
         nuevoNodo->incrementarCLaves();
@@ -183,11 +162,7 @@ void ArbolBMas::dividirHijo(NodoBMas *padre, int indice, NodoBMas *hijo) {
     padre->incrementarCLaves();
 }
 
-// ═════════════════════════════════════════════════════════════
-//  BÚSQUEDA POR CATEGORÍA
-//  Baja por el árbol hasta la primera hoja con esa categoría,
-//  luego recorre las hojas enlazadas mientras coincida.
-// ═════════════════════════════════════════════════════════════
+
 
 void ArbolBMas::buscarCategoria(const string &categoria) const {
     if (raiz == nullptr) {
@@ -195,21 +170,17 @@ void ArbolBMas::buscarCategoria(const string &categoria) const {
         return;
     }
 
-    // ── Bajar hasta la hoja inicial ───────────────────────────
     NodoBMas *actual = raiz;
     while (!actual->getEsHoja()) {
         int i = 0;
         while (i < actual->getNumClaves() && actual->getClave(i) <= categoria)
             i++;
-        // i-1 puede ser una clave igual, pero en B+ bajamos por hijo i
-        // para encontrar la primera ocurrencia bajamos antes de la clave
         int idx = 0;
         while (idx < actual->getNumClaves() && actual->getClave(idx) < categoria)
             idx++;
         actual = actual->getHijo(idx);
     }
 
-    // ── Recorrer hojas enlazadas ──────────────────────────────
     bool encontrado = false;
     cout << "\n=== Productos en categoria: " << categoria << " ===\n";
 
@@ -226,8 +197,7 @@ void ArbolBMas::buscarCategoria(const string &categoria) const {
                 cout << "  ---------------------------------\n";
                 encontrado = true;
             } else if (actual->getClave(i) > categoria) {
-                // Las hojas están ordenadas: si la clave supera la categoría,
-                // no habrá más coincidencias.
+
                 goto fin_busqueda;
             }
         }
@@ -240,9 +210,6 @@ void ArbolBMas::buscarCategoria(const string &categoria) const {
     cout << "=================================================\n\n";
 }
 
-// ═════════════════════════════════════════════════════════════
-//  IMPRESIÓN ORDENADA (recorrido de hojas enlazadas)
-// ═════════════════════════════════════════════════════════════
 
 void ArbolBMas::imprimirOrdenado() const {
     if (primeraHoja == nullptr) {
@@ -266,14 +233,6 @@ void ArbolBMas::imprimirOrdenado() const {
     cout << "==============================================\n\n";
 }
 
-// ═════════════════════════════════════════════════════════════
-//  PREVIEW EN CONSOLA — mostrarArbol()
-//
-//  Imprime el árbol nivel por nivel usando BFS.
-//  Nodos internos muestran sus claves separadas por " | ".
-//  Nodos hoja muestran [clave] marcados con (H).
-//  Al final muestra la lista de hojas enlazadas.
-// ═════════════════════════════════════════════════════════════
 
 void ArbolBMas::mostrarArbol() const {
     if (raiz == nullptr) {
@@ -287,8 +246,6 @@ void ArbolBMas::mostrarArbol() const {
     cout << "║   (I) = nodo interno   (H) = nodo hoja               ║\n";
     cout << "╚══════════════════════════════════════════════════════╝\n\n";
 
-    // ── BFS para mostrar nivel a nivel ────────────────────────
-    // Usamos std::queue y std::vector (buffer temporal, permitido)
     struct Entry { NodoBMas *nodo; int nivel; };
     queue<Entry> cola;
     cola.push({raiz, 0});
@@ -306,14 +263,13 @@ void ArbolBMas::mostrarArbol() const {
             cout << "\n  Nivel " << nivelActual << ": ";
         }
 
-        // ── Dibujar el nodo ───────────────────────────────────
         if (n->getEsHoja()) {
             cout << "(H)[";
         } else {
             cout << "(I)[";
         }
         for (int i = 0; i < n->getNumClaves(); i++) {
-            // Abreviar categoría a 10 caracteres para que entre
+
             string cat = n->getClave(i);
             if (cat.size() > 10) cat = cat.substr(0, 9) + "~";
             cout << cat;
@@ -321,7 +277,7 @@ void ArbolBMas::mostrarArbol() const {
         }
         cout << "]  ";
 
-        // Encolar hijos si es nodo interno
+
         if (!n->getEsHoja()) {
             for (int i = 0; i <= n->getNumClaves(); i++) {
                 if (n->getHijo(i) != nullptr)
@@ -332,7 +288,7 @@ void ArbolBMas::mostrarArbol() const {
 
     cout << "\n\n";
 
-    // ── Mostrar lista enlazada de hojas ───────────────────────
+
     cout << "  ┌─ Lista enlazada de hojas (izq → der) ─────────────\n";
     cout << "  │  ";
     NodoBMas *hoja = primeraHoja;
@@ -353,9 +309,7 @@ void ArbolBMas::mostrarArbol() const {
     cout << "\n  └────────────────────────────────────────────────────\n\n";
 }
 
-// ═════════════════════════════════════════════════════════════
-//  GENERACIÓN DE ARCHIVO DOT (Graphviz)
-// ═════════════════════════════════════════════════════════════
+
 
 void ArbolBMas::generarDOT(const string &nombreArchivo) {
     fstream archivo;
@@ -375,7 +329,6 @@ void ArbolBMas::generarDOT(const string &nombreArchivo) {
         int contadorHoja = 0;
         generarDotRecursivo(raiz, archivo, contadorHoja);
 
-        // ── Enlazar hojas con aristas invisibles para mantener orden ──
         archivo << "\n  // ── Lista enlazada de hojas ──\n";
         archivo << "  edge [style=dashed, color=\"#1565C0\", constraint=false];\n";
         NodoBMas *hoja = primeraHoja;
@@ -400,13 +353,11 @@ void ArbolBMas::generarDotRecursivo(NodoBMas *nodo, fstream &archivo, int &conta
     unsigned long long id = (unsigned long long)(void*)nodo;
 
     if (nodo->getEsHoja()) {
-        // ── Hoja: fondo verde, muestra categoría + nombre del producto ──
         archivo << "  n" << id << " [fillcolor=\"#E8F5E9\", color=\"#2E7D32\", label=\"{HOJA|";
         for (int i = 0; i < nodo->getNumClaves(); i++) {
             string cat  = nodo->getClave(i);
             string nom  = nodo->getProducto(i).getNombre();
             if (nom.size() > 14) nom = nom.substr(0, 13) + "~";
-            // Escapar caracteres especiales para DOT
             for (char &c : cat) if (c == '"' || c == '<' || c == '>') c = '\'';
             for (char &c : nom) if (c == '"' || c == '<' || c == '>') c = '\'';
             archivo << cat << "\\n" << nom;
@@ -415,7 +366,6 @@ void ArbolBMas::generarDotRecursivo(NodoBMas *nodo, fstream &archivo, int &conta
         archivo << "}\"];\n";
         contadorHoja++;
     } else {
-        // ── Nodo interno: fondo azul claro, solo claves ──────────────
         archivo << "  n" << id << " [fillcolor=\"#E3F2FD\", color=\"#1565C0\", label=\"{";
         for (int i = 0; i < nodo->getNumClaves(); i++) {
             // Puerto izquierdo del hijo i
@@ -425,7 +375,6 @@ void ArbolBMas::generarDotRecursivo(NodoBMas *nodo, fstream &archivo, int &conta
             archivo << cat;
             if (i < nodo->getNumClaves() - 1) archivo << "|";
         }
-        // Puerto del último hijo
         archivo << "|<f" << nodo->getNumClaves() << ">}\"];\n";
 
         // Recursión en hijos y aristas
@@ -440,9 +389,7 @@ void ArbolBMas::generarDotRecursivo(NodoBMas *nodo, fstream &archivo, int &conta
     }
 }
 
-// ═════════════════════════════════════════════════════════════
-//  ELIMINACIÓN
-// ═════════════════════════════════════════════════════════════
+
 
 void ArbolBMas::eliminar(const string &categoria, const string &codigoBarra) {
     if (raiz == nullptr) {
@@ -451,7 +398,6 @@ void ArbolBMas::eliminar(const string &categoria, const string &codigoBarra) {
     }
     eliminarRecursivo(raiz, categoria, codigoBarra);
 
-    // Si la raíz quedó vacía y no es hoja, su único hijo es la nueva raíz
     if (raiz->getNumClaves() == 0 && !raiz->getEsHoja()) {
         NodoBMas *temp = raiz;
         raiz = raiz->getHijo(0);
@@ -462,12 +408,10 @@ void ArbolBMas::eliminar(const string &categoria, const string &codigoBarra) {
 
 void ArbolBMas::eliminarRecursivo(NodoBMas *nodo, const string &categoria, const string &codigoBarra) {
     int idx = 0;
-    // Avanzar hasta la primera clave >= categoria
     while (idx < nodo->getNumClaves() && nodo->getClave(idx) < categoria)
         idx++;
 
     if (nodo->getEsHoja()) {
-        // Buscar el producto exacto por codigoBarra dentro de la hoja
         for (int i = 0; i < nodo->getNumClaves(); i++) {
             if (nodo->getClave(i) == categoria &&
                 nodo->getProducto(i).getCodigo() == codigoBarra) {
@@ -477,19 +421,16 @@ void ArbolBMas::eliminarRecursivo(NodoBMas *nodo, const string &categoria, const
         }
         cout << "[ArbolBMas] Producto no encontrado en hoja.\n";
     } else {
-        // En nodo interno, bajar al hijo correcto
-        // Si la clave en idx coincide, el producto está en el subárbol idx+1
-        // pero puede estar también en idx; bajamos a idx (hijo antes de esa clave)
+
         bool claveEnNodo = (idx < nodo->getNumClaves() && nodo->getClave(idx) == categoria);
         int hijoIdx = claveEnNodo ? idx : idx;
-        // Bajamos siempre al hijo idx (subárbol que contiene claves <= cat)
-        // Para B+ bajamos al hijo cuya rama contiene esa categoría
+
         int bajar = idx; // hijo idx cubre claves < clave[idx]
 
         NodoBMas *hijo = nodo->getHijo(bajar);
         if (hijo != nullptr && hijo->getNumClaves() < orden) {
             llenar(nodo, bajar);
-            // Tras llenar el árbol puede haberse reconfigurado; reintentar
+
             eliminarRecursivo(nodo, categoria, codigoBarra);
             return;
         }
@@ -528,7 +469,6 @@ void ArbolBMas::pedirPrestadoAnterior(NodoBMas *nodo, int idx) {
     NodoBMas *hijo    = nodo->getHijo(idx);
     NodoBMas *hermano = nodo->getHijo(idx - 1);
 
-    // Desplazar claves/productos del hijo a la derecha
     for (int i = hijo->getNumClaves() - 1; i >= 0; i--) {
         hijo->setClave(i + 1, hijo->getClave(i));
         hijo->setProducto(i + 1, hijo->getProducto(i));
@@ -579,13 +519,12 @@ void ArbolBMas::fusionar(NodoBMas *nodo, int idx) {
     NodoBMas *hijo    = nodo->getHijo(idx);
     NodoBMas *hermano = nodo->getHijo(idx + 1);
 
-    // Bajar clave del padre al hijo (solo en internos; en hojas solo copiamos)
+    // Bajar clave del padre al hijo
     if (!hijo->getEsHoja()) {
         hijo->setClave(hijo->getNumClaves(), nodo->getClave(idx));
         hijo->incrementarCLaves();
     }
 
-    // Mover todas las claves/productos de hermano a hijo
     for (int i = 0; i < hermano->getNumClaves(); i++) {
         hijo->setClave(hijo->getNumClaves(), hermano->getClave(i));
         hijo->setProducto(hijo->getNumClaves(), hermano->getProducto(i));

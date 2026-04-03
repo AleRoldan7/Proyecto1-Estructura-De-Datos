@@ -10,13 +10,7 @@
 #include "../../utils/date/ConvertDate.h"
 using namespace std;
 
-// ═════════════════════════════════════════════════════════════
-//  Utilidad interna: convierte fecha "YYYY-MM-DD" → entero
-//  para comparación eficiente de rangos.
-//  Ej: "2026-04-15" → 20260415
-// ═════════════════════════════════════════════════════════════
 static int fechaAEntero(const string& fecha) {
-    // Formato esperado: YYYY-MM-DD  (10 caracteres)
     if (fecha.size() < 10) return 0;
     int anio = stoi(fecha.substr(0, 4));
     int mes  = stoi(fecha.substr(5, 2));
@@ -24,9 +18,7 @@ static int fechaAEntero(const string& fecha) {
     return anio * 10000 + mes * 100 + dia;
 }
 
-// ═════════════════════════════════════════════════════════════
-//  Constructores / Destructor
-// ═════════════════════════════════════════════════════════════
+
 
 ArbolB::ArbolB() {
     raiz         = nullptr;
@@ -42,9 +34,6 @@ ArbolB::~ArbolB() {
     liberarNodo(raiz);
 }
 
-// ─────────────────────────────────────────────────────────────
-//  liberarNodo — libera recursivamente todos los nodos
-// ─────────────────────────────────────────────────────────────
 void ArbolB::liberarNodo(NodoB* nodo) {
     if (nodo == nullptr) return;
     if (!nodo->hoja()) {
@@ -55,11 +44,8 @@ void ArbolB::liberarNodo(NodoB* nodo) {
     delete nodo;
 }
 
-// ═════════════════════════════════════════════════════════════
-//  insertar — punto de entrada público
-// ═════════════════════════════════════════════════════════════
+
 void ArbolB::insertar(Producto producto) {
-    // Árbol vacío
     if (raiz == nullptr) {
         raiz = new NodoB(gradoMinimo, true);
         raiz->setClave(0, producto);
@@ -67,7 +53,6 @@ void ArbolB::insertar(Producto producto) {
         return;
     }
 
-    // Raíz llena: dividir antes de bajar
     int maxClaves = 2 * gradoMinimo - 1;
     if (raiz->getCantidadClaves() == maxClaves) {
         NodoB* nuevaRaiz = new NodoB(gradoMinimo, false);
@@ -87,9 +72,7 @@ void ArbolB::insertar(Producto producto) {
     }
 }
 
-// ─────────────────────────────────────────────────────────────
-//  insertarNodoLleno — inserta en un nodo que NO está lleno
-// ─────────────────────────────────────────────────────────────
+
 void ArbolB::insertarNodoLleno(NodoB* nodo, Producto producto) {
     int i          = nodo->getCantidadClaves() - 1;
     int claveFecha = fechaAEntero(producto.getFechaCaducidad());
@@ -115,7 +98,6 @@ void ArbolB::insertarNodoLleno(NodoB* nodo, Producto producto) {
         // Si el hijo está lleno, dividirlo primero
         if (nodo->getHijo(i)->getCantidadClaves() == maxClaves) {
             dividirHijo(nodo, i, nodo->getHijo(i));
-            // Tras el split, decidir a cuál de los dos hijos bajar
             if (fechaAEntero(nodo->getClave(i)->getFechaCaducidad()) < claveFecha) {
                 i++;
             }
@@ -124,9 +106,7 @@ void ArbolB::insertarNodoLleno(NodoB* nodo, Producto producto) {
     }
 }
 
-// ─────────────────────────────────────────────────────────────
-//  dividirHijo — divide hijoLleno (hijo[indice] de padre)
-// ─────────────────────────────────────────────────────────────
+
 void ArbolB::dividirHijo(NodoB* padre, int indice, NodoB* hijoLleno) {
     int t = gradoMinimo;
 
@@ -134,47 +114,37 @@ void ArbolB::dividirHijo(NodoB* padre, int indice, NodoB* hijoLleno) {
     NodoB* nuevoNodo = new NodoB(t, hijoLleno->hoja());
     nuevoNodo->setClave(0, *nuevoNodo->getClave(0)); // asegurar estado limpio
 
-    // Copiar las últimas t-1 claves de hijoLleno a nuevoNodo
     for (int j = 0; j < t - 1; j++) {
         nuevoNodo->setClave(j, *hijoLleno->getClave(j + t));
         nuevoNodo->incrementClave();
     }
 
-    // Copiar los últimos t hijos si no es hoja
     if (!hijoLleno->hoja()) {
         for (int j = 0; j < t; j++) {
             nuevoNodo->setHijo(j, hijoLleno->getHijo(j + t));
         }
     }
 
-    // Reducir claves de hijoLleno a t-1
-    // (bajamos a t-1 porque la clave mediana sube al padre)
     int cantOriginal = hijoLleno->getCantidadClaves();
     for (int j = 0; j < cantOriginal - (t - 1); j++) {
         hijoLleno->decrementClave();
     }
-    // Aseguramos que queden exactamente t-1 claves
     while (hijoLleno->getCantidadClaves() > t - 1) hijoLleno->decrementClave();
 
-    // Mover hijos del padre para hacerle espacio al nuevo nodo
     for (int j = padre->getCantidadClaves(); j >= indice + 1; j--) {
         padre->setHijo(j + 1, padre->getHijo(j));
     }
     padre->setHijo(indice + 1, nuevoNodo);
 
-    // Mover claves del padre para hacerle espacio a la clave mediana
     for (int j = padre->getCantidadClaves() - 1; j >= indice; j--) {
         padre->setClave(j + 1, *padre->getClave(j));
     }
 
-    // Subir la clave mediana de hijoLleno al padre
     padre->setClave(indice, *hijoLleno->getClave(t - 1));
     padre->incrementClave();
 }
 
-// ═════════════════════════════════════════════════════════════
-//  buscarFecha — búsqueda exacta por fecha (string "YYYY-MM-DD")
-// ═════════════════════════════════════════════════════════════
+
 Producto* ArbolB::buscarFecha(string fecha) {
     if (raiz == nullptr) return nullptr;
     return buscarRecursivo(raiz, fechaAEntero(fecha));
@@ -184,28 +154,22 @@ Producto* ArbolB::buscarRecursivo(NodoB* nodo, int fechaClave) {
     int i = 0;
     int n = nodo->getCantidadClaves();
 
-    // Avanzar hasta la primera clave >= fechaClave
     while (i < n &&
            fechaAEntero(nodo->getClave(i)->getFechaCaducidad()) < fechaClave) {
         i++;
     }
 
-    // Si encontramos exactamente la clave
     if (i < n && fechaAEntero(nodo->getClave(i)->getFechaCaducidad()) == fechaClave) {
         return nodo->getClave(i);
     }
 
-    // Si es hoja y no la encontramos, no existe
     if (nodo->hoja()) return nullptr;
 
     // Bajar al hijo correspondiente
     return buscarRecursivo(nodo->getHijo(i), fechaClave);
 }
 
-// ═════════════════════════════════════════════════════════════
-//  buscarRangoFecha — imprime todos los productos con
-//  fechaCaducidad en [fechaInicio, fechaFin]
-// ═════════════════════════════════════════════════════════════
+
 void ArbolB::buscarRangoFecha(string fechaInicio, string fechaFin) {
     if (raiz == nullptr) {
         cout << "El arbol esta vacio." << endl;
@@ -227,7 +191,6 @@ void ArbolB::buscarRango(NodoB* nodo, int fechaInicio, int fechaFin) {
     int i = 0;
     int n = nodo->getCantidadClaves();
 
-    // Avanzar mientras la clave sea menor que fechaInicio
     while (i < n &&
            fechaAEntero(nodo->getClave(i)->getFechaCaducidad()) < fechaInicio) {
         // Antes de saltar la clave, revisar el subárbol izquierdo
@@ -237,14 +200,11 @@ void ArbolB::buscarRango(NodoB* nodo, int fechaInicio, int fechaFin) {
         i++;
     }
 
-    // Procesar claves y subárboles dentro del rango
     while (i < n &&
            fechaAEntero(nodo->getClave(i)->getFechaCaducidad()) <= fechaFin) {
-        // Visitar subárbol izquierdo primero (in-order)
         if (!nodo->hoja()) {
             buscarRango(nodo->getHijo(i), fechaInicio, fechaFin);
         }
-        // Imprimir la clave actual
         Producto* p = nodo->getClave(i);
         cout << "  [" << p->getFechaCaducidad() << "] "
              << p->getNombre()
@@ -262,9 +222,6 @@ void ArbolB::buscarRango(NodoB* nodo, int fechaInicio, int fechaFin) {
     }
 }
 
-// ═════════════════════════════════════════════════════════════
-//  imprimirOrdenado — recorrido in-order (por fecha)
-// ═════════════════════════════════════════════════════════════
 void ArbolB::imprimirOrdenado() {
     if (raiz == nullptr) {
         cout << "El arbol esta vacio." << endl;
@@ -284,7 +241,6 @@ void ArbolB::recorridoInOrden(NodoB* nodo) {
         if (!nodo->hoja()) {
             recorridoInOrden(nodo->getHijo(i));
         }
-        // Imprimir clave actual
         Producto* p = nodo->getClave(i);
         cout << "  [" << p->getFechaCaducidad() << "] "
              << p->getNombre()
@@ -298,12 +254,6 @@ void ArbolB::recorridoInOrden(NodoB* nodo) {
     }
 }
 
-// ═════════════════════════════════════════════════════════════
-//  generarDOT — produce archivo .dot para Graphviz
-//
-//  Para visualizar:
-//    dot -Tpng arbolB.dot -o arbolB.png
-// ═════════════════════════════════════════════════════════════
 void ArbolB::generarDOT(string nombreArchivo) {
     fstream archivo;
     archivo.open(nombreArchivo, ios::out);
@@ -334,22 +284,17 @@ void ArbolB::generarDOT(string nombreArchivo) {
 void ArbolB::generarDotRecursivo(NodoB* nodo, fstream& archivo) {
     if (nodo == nullptr) return;
 
-    // ID único del nodo basado en su dirección de memoria
     unsigned long long id = (unsigned long long)(void*)nodo;
 
-    // ── Definir el nodo con sus claves en formato record ──
     archivo << "  n" << id << " [label=\"";
     int n = nodo->getCantidadClaves();
     for (int i = 0; i < n; i++) {
-        // Espacio para el puntero al hijo izquierdo
         archivo << "<f" << i << ">|";
-        // Clave: fecha + nombre abreviado
         Producto* p = nodo->getClave(i);
         archivo << p->getFechaCaducidad()
                 << "\\n" << p->getNombre().substr(0, 12);
         if (i < n - 1) archivo << "|";
     }
-    // Espacio para el último puntero (hijo derecho)
     archivo << "|<f" << n << ">\"];\n";
 
     // ── Recursión y aristas hacia los hijos ──
@@ -390,7 +335,6 @@ void ArbolB::eliminar(string fecha) {
     }
 }
 
-// ======================== ELIMINACIÓN ========================
 
 void ArbolB::eliminarRecursivo(NodoB* nodo, int clave) {
     if (nodo == nullptr) return;
@@ -412,7 +356,6 @@ void ArbolB::eliminarRecursivo(NodoB* nodo, int clave) {
         }
     }
     else {
-        // No es hoja → bajar
         if (nodo->hoja()) return; // no existe
 
         bool ultimoHijo = (idx == nodo->getCantidadClaves());
@@ -430,7 +373,6 @@ void ArbolB::eliminarRecursivo(NodoB* nodo, int clave) {
     }
 }
 
-// Eliminar de hoja
 void ArbolB::eliminarDeHoja(NodoB* nodo, int idx) {
     for (int i = idx + 1; i < nodo->getCantidadClaves(); i++) {
         nodo->setClave(i - 1, *nodo->getClave(i));
@@ -461,7 +403,7 @@ void ArbolB::eliminarDeInterno(NodoB* nodo, int idx) {
     }
 }
 
-// Obtener predecesor (máximo del subárbol izquierdo)
+// Obtener predecesor
 Producto ArbolB::obtenerPredecesor(NodoB* nodo, int idx) {
     NodoB* actual = nodo->getHijo(idx);
     while (!actual->hoja()) {
@@ -470,7 +412,7 @@ Producto ArbolB::obtenerPredecesor(NodoB* nodo, int idx) {
     return *actual->getClave(actual->getCantidadClaves() - 1);
 }
 
-// Obtener sucesor (mínimo del subárbol derecho)
+// Obtener sucesor
 Producto ArbolB::obtenerSucesor(NodoB* nodo, int idx) {
     NodoB* actual = nodo->getHijo(idx + 1);
     while (!actual->hoja()) {
@@ -479,7 +421,6 @@ Producto ArbolB::obtenerSucesor(NodoB* nodo, int idx) {
     return *actual->getClave(0);
 }
 
-// Llenar hijo que tiene menos de t-1 claves
 void ArbolB::llenar(NodoB* nodo, int idx) {
     if (idx != 0 && nodo->getHijo(idx - 1)->getCantidadClaves() >= gradoMinimo)
         pedirPrestadoAnterior(nodo, idx);
@@ -493,7 +434,6 @@ void ArbolB::llenar(NodoB* nodo, int idx) {
     }
 }
 
-// Pedir prestado del hermano anterior
 void ArbolB::pedirPrestadoAnterior(NodoB* nodo, int idx) {
     NodoB* hijo = nodo->getHijo(idx);
     NodoB* hermano = nodo->getHijo(idx - 1);
@@ -516,7 +456,6 @@ void ArbolB::pedirPrestadoAnterior(NodoB* nodo, int idx) {
     hijo->incrementClave();
 }
 
-// Pedir prestado del hermano siguiente
 void ArbolB::pedirPrestadoSiguiente(NodoB* nodo, int idx) {
     NodoB* hijo = nodo->getHijo(idx);
     NodoB* hermano = nodo->getHijo(idx + 1);
@@ -540,7 +479,6 @@ void ArbolB::pedirPrestadoSiguiente(NodoB* nodo, int idx) {
     hijo->incrementClave();
 }
 
-// Fusionar hijo[idx] con hijo[idx+1]
 void ArbolB::fusionar(NodoB* nodo, int idx) {
     NodoB* hijo = nodo->getHijo(idx);
     NodoB* hermano = nodo->getHijo(idx + 1);
@@ -561,7 +499,7 @@ void ArbolB::fusionar(NodoB* nodo, int idx) {
     for (int i = idx + 2; i <= nodo->getCantidadClaves(); i++)
         nodo->setHijo(i - 1, nodo->getHijo(i));
 
-    hijo->incrementClave(); // por la clave que subió del padre
+    hijo->incrementClave();
 
     nodo->decrementClave();
     delete hermano;
