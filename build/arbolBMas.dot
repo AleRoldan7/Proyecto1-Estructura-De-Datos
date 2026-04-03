@@ -1,0 +1,15 @@
+digraph BPlus {
+  graph [rankdir=TB, bgcolor="#ffffff", nodesep=0.6, ranksep=1.0];
+  node  [shape=record, style=filled, fontname="Courier New", fontsize=10];
+  edge  [color="#444444", arrowsize=0.7];
+
+  n102501242242160 [fillcolor="#E3F2FD", color="#1565C0", label="{<f0>|Higiene Personal|<f1>}"];
+  n102501242242160:f0 -> n102501242235200;
+  n102501242235200 [fillcolor="#E8F5E9", color="#2E7D32", label="{HOJA|Bebidas\nAgua Mineral ~|Carnes\nCostilla de R~|Desayuno\nHarina de Ave~|Enlatados\nPera en Lata ~|Frutas\nManzana Verde~}"];
+  n102501242242160:f1 -> n102501242243360;
+  n102501242243360 [fillcolor="#E8F5E9", color="#2E7D32", label="{HOJA|Higiene Personal\nJabón de Bar~|Lacteos\nQueso Mozzare~|Verduras\nCebolla 250ml}"];
+
+  // ── Lista enlazada de hojas ──
+  edge [style=dashed, color="#1565C0", constraint=false];
+  n102501242235200 -> n102501242243360 [label="next"];
+}

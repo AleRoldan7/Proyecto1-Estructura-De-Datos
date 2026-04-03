@@ -1,0 +1,11 @@
+digraph ArbolB {
+  node [shape=record, fontname="Courier New", fontsize=10];
+  graph [label="Arbol B — Clave: FechaCaducidad", fontsize=14, fontname="Arial"];
+  edge [arrowsize=0.7];
+
+  n102501242239952 [label="<f0>|2026-07-18\nJabón de Ba|<f1>"];
+  n102501242239952:f0 -> n102501242234112;
+  n102501242234112 [label="<f0>|2025-06-28\nHarina de Av|<f1>|2025-07-29\nPera en Lata|<f2>|2026-04-22\nQueso Mozzar|<f3>|2026-06-26\nManzana Verd|<f4>"];
+  n102501242239952:f1 -> n102501242240960;
+  n102501242240960 [label="<f0>|2027-02-15\nCebolla 250m|<f1>|2027-05-10\nCostilla de |<f2>|2028-11-30\nAgua Mineral|<f3>"];
+}

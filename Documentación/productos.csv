@@ -1,0 +1,1001 @@
+"Nombre","CodigoBarra","Categoria","FechaCaducidad","Marca","Precio","Stock"
+"Jabón de Barra","7000000000001","Higiene Personal","2026-07-18","Colgate",35.82,72
+"Harina de Avena Premium","7000000000002","Desayuno","2025-06-28","Kellogg's",55.43,17
+"Queso Mozzarella 250g","7000000000003","Lacteos","2026-04-22","Dos Pinos",42.9,14
+"Costilla de Res Premium","7000000000004","Carnes","2027-05-10","Suiza",67.47,302
+"Agua Mineral 500g","7000000000005","Bebidas","2028-11-30","Tropicana",36.7,143
+"Pera en Lata 750ml","7000000000006","Enlatados","2025-07-29","Del Monte",13.25,50
+"Manzana Verde Extra","7000000000007","Frutas","2026-06-26","Fresh Del Monte",32.86,374
+"Cebolla 250ml","7000000000008","Verduras","2027-02-15","Verde",4.21,151
+"Helado de Fresa 330ml","7000000000009","Frutas","2028-03-28","NaturFresh",10.11,36
+"Pan Integral 200ml","7000000000010","Panaderia","2025-06-13","Marinela",52.48,444
+"Pasta Espagueti 2L","7000000000011","Granos y Cereales","2027-07-18","Knorr",33.97,187
+"Aceite Vegetal 330ml","7000000000012","Aceites y Grasas","2026-03-06","Carbonell",87.02,360
+"Papel de Cocina Extra","7000000000013","Limpieza del Hogar","2028-07-24","Ariel",23.69,374
+"Mayonesa Pequeño","7000000000014","Salsas","2027-02-17","Hellmann's",20.8,474
+"Jabón de Barra 100g","7000000000015","Higiene Personal","2028-11-03","Gillette",42.56,394
+"Mermelada de Mora 100g","7000000000016","Frutas","2025-03-07","Dole",32.79,206
+"Salsa BBQ 250g","7000000000017","Especias y Condimentos","2028-03-07","McCormick",35.67,162
+"Comino 6-pack","7000000000018","Especias y Condimentos","2028-08-09","Goya",21.06,136
+"Tomate en Lata Premium","7000000000019","Enlatados","2028-01-09","Del Monte",19.2,300
+"Sandía 6-pack","7000000000020","Frutas","2027-01-12","NaturFresh",11.11,71
+"Champiñón 500ml","7000000000021","Verduras","2025-04-07","Fresh Market",26.11,79
+"Suavizante de Ropa Familiar","7000000000022","Limpieza del Hogar","2028-05-06","Fabuloso",15.08,196
+"Camarón Grande","7000000000023","Mariscos","2026-05-30","Pescanova",243.93,441
+"Yogur Natural Premium","7000000000024","Lacteos","2026-07-01","Dos Pinos",62.64,175
+"Macarrones Familiar","7000000000025","Granos y Cereales","2025-11-20","Barilla",25.96,489
+"Cereal de Trigo Grande","7000000000026","Desayuno","2026-01-01","General Mills",50.46,55
+"Leche Evaporada Grande","7000000000027","Lacteos","2028-06-01","Alpura",19.92,192
+"Cacao en Polvo Premium","7000000000028","Harinas y Reposteria","2027-12-23","Selecta",51.17,307
+"Té Negro","7000000000029","Bebidas","2025-08-18","Pepsi",74.68,450
+"Helado de Fresa 100g","7000000000030","Frutas","2025-04-29","Fresh Del Monte",11.91,291
+"Arroz Blanco Mediano","7000000000031","Granos y Cereales","2025-05-22","Maseca",49.03,273
+"Mermelada de Fresa 1kg","7000000000032","Frutas","2028-09-13","Chiquita",20.59,282
+"Aceite de Girasol Grande","7000000000033","Aceites y Grasas","2028-05-27","Carbonell",62.31,109
+"Pollo Entero 200ml","7000000000034","Carnes","2027-03-29","Suiza",199.18,333
+"Limón Grande","7000000000035","Frutas","2027-07-14","Del Campo",7.48,116
+"Galletas de Chocolate","7000000000036","Panaderia","2028-04-19","Wonder",36.8,302
+"Tomillo 500ml","7000000000037","Especias y Condimentos","2028-12-20","McCormick",27.09,118
+"Galletas de Vainilla 750ml","7000000000038","Panaderia","2025-05-26","Bimbo",34.74,143
+"Enjuague Bucal 250g","7000000000039","Higiene Personal","2028-01-10","Oral-B",26.25,479
+"Vino Tinto Light","7000000000040","Alcoholicas","2027-08-27","Heineken",66.45,243
+"Pizza Congelada 250g","7000000000041","Congelados","2025-07-13","Ardo",34.21,221
+"Manzana Fuji Familiar","7000000000042","Frutas","2027-08-15","Del Campo",34.96,28
+"Papel Higiénico 1L","7000000000043","Limpieza del Hogar","2027-04-05","Ariel",68.26,410
+"Crema Agria 100g","7000000000044","Lacteos","2026-01-28","Dos Pinos",19.27,230
+"Tomate en Lata 500g","7000000000045","Enlatados","2026-07-25","Campbell's",26.19,448
+"Bizcocho Premium","7000000000046","Panaderia","2025-07-20","Pan Artesano",10.63,277
+"Paleta de Mango 500ml","7000000000047","Frutas","2026-04-30","Dole",9.15,249
+"Espinaca 6-pack","7000000000048","Verduras","2025-05-01","NaturVerd",6.61,2
+"Ciruela Pequeño","7000000000049","Frutas","2026-08-08","Fresh Del Monte",18.65,491
+"Harina de Maíz Mediano","7000000000050","Harinas y Reposteria","2025-11-14","Maizena",16.93,112
+"Tortillas de Maíz Premium","7000000000051","Panaderia","2025-05-05","El Molino",46.89,30
+"Pan de Molde Mediano","7000000000052","Panaderia","2027-10-27","El Molino",55.81,272
+"Aceite de Oliva Grande","7000000000053","Aceites y Grasas","2025-06-14","Patrona",105.13,36
+"Camarón 100g","7000000000054","Mariscos","2027-04-07","Camarón Real",65.18,456
+"Chuleta de Cerdo Light","7000000000055","Carnes","2028-05-02","Suiza",36.76,42
+"Mango Light","7000000000056","Frutas","2027-12-07","NaturFresh",14.71,134
+"Ajo en Polvo 100g","7000000000057","Especias y Condimentos","2026-06-28","Maggi",18.85,344
+"Champú Pequeño","7000000000058","Higiene Personal","2026-10-10","Head & Shoulders",93.97,480
+"Galletas Saladas Pequeño","7000000000059","Panaderia","2028-06-26","Bimbo",59.92,52
+"Galletas Saladas 250g","7000000000060","Panaderia","2027-11-03","El Molino",21.79,478
+"Bebida de Avena 100g","7000000000061","Desayuno","2027-01-27","Kellogg's",37.1,225
+"Paleta de Limón 200ml","7000000000062","Frutas","2028-06-06","NaturFresh",39.4,414
+"Gel de Ducha","7000000000063","Higiene Personal","2028-09-29","Gillette",84.45,154
+"Cepillo de Dientes 1kg","7000000000064","Higiene Personal","2026-06-26","Colgate",24.81,55
+"Polvo para Hornear 1kg","7000000000065","Harinas y Reposteria","2026-07-12","Maizena",21.24,108
+"Cereal de Maíz 250g","7000000000066","Desayuno","2028-11-08","General Mills",58.05,136
+"Rábano 2L","7000000000067","Verduras","2025-04-15","Fresh Market",4.58,217
+"Helado de Fresa 1L","7000000000068","Frutas","2025-01-08","Fresh Del Monte",15.34,67
+"Jabón de Barra 500g","7000000000069","Higiene Personal","2027-06-24","Head & Shoulders",61.89,219
+"Costilla de Res 250ml","7000000000070","Carnes","2025-06-04","San Rafael",190.66,354
+"Piña en Lata 1L","7000000000071","Enlatados","2027-01-27","Herdez",30.39,76
+"Melón 1L","7000000000072","Frutas","2026-09-24","Chiquita",16.49,478
+"Tahini 330ml","7000000000073","Especias y Condimentos","2026-03-07","McCormick",28.87,342
+"Pasta Penne Premium","7000000000074","Granos y Cereales","2027-04-13","Barilla",48.85,384
+"Pera en Lata 500g","7000000000075","Enlatados","2025-12-29","Del Monte",40.85,13
+"Azúcar Blanca Familiar","7000000000076","Endulzantes","2028-10-03","Azucarera",52.93,416
+"Salsa Inglesa 500g","7000000000077","Especias y Condimentos","2028-12-07","Maggi",8.78,447
+"Crema de Leche 100g","7000000000078","Lacteos","2026-02-13","Sello Rojo",66.24,236
+"Bebida de Avena 100g","7000000000079","Desayuno","2026-04-02","General Mills",21.42,99
+"Frambuesa 2L","7000000000080","Frutas","2025-05-23","Fresh Del Monte",38.77,143
+"Bebida de Avena 6-pack","7000000000081","Desayuno","2028-10-23","Post",78.87,275
+"Té de Manzanilla 250ml","7000000000082","Bebidas","2026-06-19","Tropicana",18.39,493
+"Salsa Picante 250ml","7000000000083","Especias y Condimentos","2028-05-06","McCormick",20.21,374
+"Mantequilla de Maní Familiar","7000000000084","Lacteos","2028-05-26","Alpura",78.82,60
+"Durazno 250g","7000000000085","Frutas","2026-06-06","NaturFresh",4.64,224
+"Leche Entera Premium","7000000000086","Lacteos","2028-11-07","NaturMilk",58.96,380
+"Harina de Avena 330ml","7000000000087","Desayuno","2027-06-03","Nestlé",24.2,341
+"Té de Manzanilla 750ml","7000000000088","Bebidas","2028-09-20","Nestlé",68.6,369
+"Jugo de Uva 200ml","7000000000089","Bebidas","2028-09-27","Nestlé",35.63,207
+"Limpiapisos Premium","7000000000090","Limpieza del Hogar","2025-09-18","Clorox",25.35,341
+"Pera Extra","7000000000091","Frutas","2028-03-11","Chiquita",14.14,281
+"Paleta de Limón 200ml","7000000000092","Frutas","2026-08-11","Dole",10.78,403
+"Tocino 750ml","7000000000093","Carnes","2027-08-11","Fud",105.1,346
+"Comino Mediano","7000000000094","Especias y Condimentos","2025-12-14","Schwartz",28.06,146
+"Chile Jalapeño 750ml","7000000000095","Verduras","2025-07-11","Verde",24.92,385
+"Ketchup 100g","7000000000096","Salsas","2026-02-12","Lea & Perrins",15.89,24
+"Mayonesa Extra","7000000000097","Salsas","2025-05-30","Cholula",28.22,454
+"Blanqueador 250g","7000000000098","Limpieza del Hogar","2028-11-27","Lysol",40.72,205
+"Mayonesa","7000000000099","Salsas","2025-08-07","Hellmann's",41.14,113
+"Azúcar Blanca Pequeño","7000000000100","Endulzantes","2025-04-13","Truvia",36.99,470
+"Queso Suizo Pequeño","7000000000101","Lacteos","2025-10-01","Dos Pinos",65.11,342
+"Filete de Pollo Extra","7000000000102","Carnes","2026-10-12","Fud",191.51,457
+"Aguacate Grande","7000000000103","Bebidas","2027-05-24","Nestlé",67.29,281
+"Tomate Mediano","7000000000104","Verduras","2027-07-11","NaturVerd",9.26,127
+"Queso Parmesano Grande","7000000000105","Lacteos","2027-09-20","Alpura",52.01,141
+"Coco Rallado 200ml","7000000000106","Frutas","2026-04-26","Dole",13.05,164
+"Cerveza Oscura 500ml","7000000000107","Alcoholicas","2025-10-11","Heineken",52.62,197
+"Guantes de Hule 250g","7000000000108","Limpieza del Hogar","2025-05-12","Fabuloso",43.19,170
+"Pollo Entero Familiar","7000000000109","Carnes","2025-05-08","Noel",65.16,216
+"Ciruela","7000000000110","Frutas","2028-03-25","NaturFresh",17.07,4
+"Manzana Fuji 6-pack","7000000000111","Frutas","2027-05-09","Fresh Del Monte",22.91,377
+"Salchicha de Pollo 100g","7000000000112","Especias y Condimentos","2027-09-27","Schwartz",12.68,224
+"Lechuga 6-pack","7000000000113","Verduras","2026-11-20","Del Campo",20.73,409
+"Mora Pequeño","7000000000114","Frutas","2025-09-19","Chiquita",39.29,274
+"Queso Cheddar Light","7000000000115","Lacteos","2028-03-01","Sello Rojo",54.72,43
+"Jabón Líquido 1kg","7000000000116","Higiene Personal","2027-08-04","Oral-B",30.45,134
+"Pera 250g","7000000000117","Frutas","2027-07-21","Fresh Del Monte",15.09,390
+"Vino Tinto 2L","7000000000118","Alcoholicas","2027-05-14","Santa Rita",67.84,42
+"Pimiento Verde Premium","7000000000119","Verduras","2025-04-17","Del Campo",30.0,180
+"Canela 1L","7000000000120","Especias y Condimentos","2025-03-05","McCormick",38.24,103
+"Paleta de Mango Extra","7000000000121","Frutas","2025-11-09","Dole",11.83,243
+"Enjuague Bucal Light","7000000000122","Higiene Personal","2026-03-23","Colgate",54.53,132
+"Mermelada de Fresa 500g","7000000000123","Frutas","2028-05-25","Fresh Del Monte",25.47,383
+"Cereal de Maíz 500g","7000000000124","Desayuno","2026-09-30","Kellogg's",26.49,14
+"Refresco de Lima 6-pack","7000000000125","Bebidas","2027-03-24","Nestlé",75.61,102
+"Bizcocho 100g","7000000000126","Panaderia","2025-07-28","El Molino",44.25,155
+"Queso Suizo 250ml","7000000000127","Lacteos","2028-03-05","NaturMilk",63.7,178
+"Pechuga de Pollo 330ml","7000000000128","Carnes","2025-05-22","Noel",116.01,175
+"Yogur de Fresa Mediano","7000000000129","Lacteos","2025-08-05","Sello Rojo",37.51,186
+"Quitamanchas 1kg","7000000000130","Limpieza del Hogar","2027-06-11","Ajax",24.09,268
+"Acondicionador Extra","7000000000131","Higiene Personal","2028-01-08","Head & Shoulders",80.84,239
+"Kiwi 2L","7000000000132","Frutas","2026-10-23","NaturFresh",34.51,426
+"Frijoles Negros Pequeño","7000000000133","Granos y Cereales","2026-05-15","Barilla",39.02,292
+"Huevo de Codorniz 750ml","7000000000134","Huevos","2025-02-28","NaturEgg",37.24,167
+"Azúcar Morena 250g","7000000000135","Endulzantes","2026-12-28","Splenda",49.49,175
+"Agua Mineral 2L","7000000000136","Bebidas","2028-02-13","Nestlé",5.76,486
+"Jarabe de Maple 100g","7000000000137","Endulzantes","2027-04-13","Domino",33.41,389
+"Mostaza Mediano","7000000000138","Salsas","2027-07-07","Cholula",41.72,48
+"Jugo de Mango 6-pack","7000000000139","Bebidas","2028-11-17","Del Valle",23.25,340
+"Tocino Mediano","7000000000140","Carnes","2028-02-08","Colonial",120.26,218
+"Polvo para Hornear 750ml","7000000000141","Harinas y Reposteria","2026-12-22","Maizena",41.03,139
+"Refresco de Naranja 100g","7000000000142","Bebidas","2025-09-05","Coca-Cola",59.1,162
+"Atún en Lata 500g","7000000000143","Enlatados","2026-01-28","Herdez",17.57,248
+"Agua Pura Grande","7000000000144","Bebidas","2028-05-07","Nestlé",26.22,52
+"Paleta de Limón 200ml","7000000000145","Frutas","2026-04-11","Chiquita",16.35,155
+"Yogur de Fresa 1kg","7000000000146","Lacteos","2026-07-16","NaturMilk",8.41,28
+"Bistec de Res 1kg","7000000000147","Carnes","2028-07-30","Colonial",177.64,252
+"Pasta Penne Light","7000000000148","Granos y Cereales","2026-08-06","Maseca",26.65,226
+"Leche de Soya 1L","7000000000149","Lacteos","2026-06-02","Lala",75.58,245
+"Fideos 6-pack","7000000000150","Granos y Cereales","2027-10-05","Maseca",9.26,323
+"Bolsas de Basura 1kg","7000000000151","Limpieza del Hogar","2025-11-02","Ariel",74.89,486
+"Refresco de Cola 100g","7000000000152","Bebidas","2025-08-31","Tropicana",46.86,214
+"Huevo de Gallina Extra","7000000000153","Huevos","2026-04-08","AviCamp",49.91,195
+"Papa 200ml","7000000000154","Verduras","2028-04-20","Fresh Market",29.72,157
+"Chuleta de Cerdo 1L","7000000000155","Carnes","2028-06-02","Fud",193.22,51
+"Cacao en Polvo 250g","7000000000156","Harinas y Reposteria","2026-06-26","Selecta",39.04,81
+"Mostaza Premium","7000000000157","Salsas","2025-06-03","Hellmann's",16.26,210
+"Papa Mediano","7000000000158","Verduras","2026-08-20","Verde",2.91,148
+"Desinfectante Pequeño","7000000000159","Limpieza del Hogar","2025-05-26","Clorox",64.99,474
+"Salsa Picante 250g","7000000000160","Especias y Condimentos","2027-05-21","Schwartz",9.02,116
+"Champú 2L","7000000000161","Higiene Personal","2025-10-19","Dove",21.07,85
+"Crema de Avellanas Extra","7000000000162","Lacteos","2028-03-11","Alpura",74.09,225
+"Sardinas en Lata 200ml","7000000000163","Enlatados","2028-12-04","Campbell's",24.09,140
+"Apio Mediano","7000000000164","Verduras","2027-06-16","Verde",4.25,21
+"Cerveza Lager 750ml","7000000000165","Alcoholicas","2028-05-21","Santa Rita",67.56,47
+"Paprika Light","7000000000166","Especias y Condimentos","2025-02-12","Schwartz",39.99,345
+"Helado de Vainilla Light","7000000000167","Congelados","2025-03-24","Findus",97.5,90
+"Pimiento Verde Pequeño","7000000000168","Verduras","2026-07-24","Verde",7.08,300
+"Kiwi 500ml","7000000000169","Frutas","2027-08-21","Del Campo",15.87,171
+"Té Negro 500g","7000000000170","Bebidas","2026-11-07","Tropicana",35.87,254
+"Jugo de Manzana Premium","7000000000171","Bebidas","2025-03-17","Pepsi",39.11,162
+"Salsa de Soya 250ml","7000000000172","Especias y Condimentos","2027-04-08","Maggi",35.27,423
+"Leche Entera Pequeño","7000000000173","Lacteos","2027-04-27","NaturMilk",9.07,266
+"Plátano Mediano","7000000000174","Frutas","2028-07-04","NaturFresh",19.36,27
+"Ajo en Polvo Premium","7000000000175","Especias y Condimentos","2025-09-26","Maggi",37.47,225
+"Vino Tinto 250ml","7000000000176","Alcoholicas","2025-03-01","Santa Rita",175.97,312
+"Hummus 500g","7000000000177","Verduras","2026-09-29","NaturVerd",17.42,283
+"Uva Verde 100g","7000000000178","Frutas","2025-08-21","Dole",20.07,61
+"Champú Mediano","7000000000179","Higiene Personal","2026-08-21","Dove",58.25,140
+"Piña Mediano","7000000000180","Frutas","2026-05-15","Del Campo",19.9,75
+"Durazno Extra","7000000000181","Frutas","2027-11-07","Chiquita",30.61,70
+"Leche Condensada 2L","7000000000182","Lacteos","2027-04-30","Dos Pinos",30.49,404
+"Rábano","7000000000183","Verduras","2026-08-03","Bio Selecto",22.33,429
+"Filete de Tilapia Mediano","7000000000184","Mariscos","2025-11-01","SeaSelect",133.77,248
+"Leche de Coco Premium","7000000000185","Lacteos","2028-01-18","Alpura",33.29,478
+"Té Negro 100g","7000000000186","Bebidas","2028-03-17","Del Valle",33.72,439
+"Mermelada de Mora 1L","7000000000187","Frutas","2026-10-14","Del Campo",30.55,362
+"Nuggets de Pollo 6-pack","7000000000188","Carnes","2028-09-21","Noel",164.71,334
+"Piña en Lata 1L","7000000000189","Enlatados","2025-09-16","Campbell's",27.58,303
+"Té de Manzanilla Pequeño","7000000000190","Bebidas","2025-07-24","Tropicana",44.45,234
+"Yogur de Fresa Familiar","7000000000191","Lacteos","2028-09-02","Lala",77.75,39
+"Pimiento Verde 750ml","7000000000192","Verduras","2028-06-30","Bio Selecto",21.4,333
+"Arroz Blanco Premium","7000000000193","Granos y Cereales","2027-02-18","Barilla",47.98,321
+"Cereal de Maíz Premium","7000000000194","Desayuno","2025-03-15","Quaker",57.05,121
+"Blanqueador 100g","7000000000195","Limpieza del Hogar","2025-07-05","Clorox",44.72,51
+"Chispas de Chocolate Pequeño","7000000000196","Harinas y Reposteria","2025-12-07","Maseca",40.62,463
+"Queso Mozzarella 750ml","7000000000197","Lacteos","2025-04-25","Dos Pinos",27.0,192
+"Melón 100g","7000000000198","Frutas","2027-12-24","Chiquita",18.25,350
+"Crema de Avellanas 500g","7000000000199","Lacteos","2025-12-25","Lala",10.92,446
+"Pera 100g","7000000000200","Frutas","2027-10-17","NaturFresh",36.77,74
+"Curry en Polvo 2L","7000000000201","Especias y Condimentos","2027-07-31","Goya",13.94,5
+"Guacamole 200ml","7000000000202","Verduras","2028-10-19","Fresh Market",17.3,38
+"Aguacate Light","7000000000203","Bebidas","2026-09-05","Coca-Cola",52.92,218
+"Esponja de Cocina Pequeño","7000000000204","Limpieza del Hogar","2026-09-11","Clorox",25.94,197
+"Queso Ricotta 250ml","7000000000205","Lacteos","2026-05-01","Sello Rojo",33.6,184
+"Jamón 200ml","7000000000206","Carnes","2025-02-14","Colonial",196.25,338
+"Arándano","7000000000207","Frutas","2028-03-05","Fresh Del Monte",35.01,399
+"Polvo para Hornear Extra","7000000000208","Harinas y Reposteria","2027-10-15","Maseca",47.14,463
+"Jugo de Manzana Extra","7000000000209","Bebidas","2026-12-23","Del Valle",21.43,98
+"Detergente en Polvo 1kg","7000000000210","Limpieza del Hogar","2028-07-10","Clorox",17.77,322
+"Champú 200ml","7000000000211","Higiene Personal","2027-06-22","Colgate",17.84,187
+"Harina de Maíz 500ml","7000000000212","Harinas y Reposteria","2026-08-28","Selecta",23.36,213
+"Manteca Vegetal 1kg","7000000000213","Aceites y Grasas","2028-01-10","Nutrioli",107.65,188
+"Filete de Pollo 2L","7000000000214","Carnes","2025-12-03","Fud",73.68,423
+"Espinaca 750ml","7000000000215","Verduras","2025-08-24","Bio Selecto",15.11,39
+"Champiñones Enlatados 6-pack","7000000000216","Enlatados","2028-02-16","Del Monte",22.8,405
+"Arándano 2L","7000000000217","Frutas","2028-01-04","Dole",7.57,189
+"Papel Higiénico Light","7000000000218","Limpieza del Hogar","2027-02-20","Clorox",75.79,482
+"Limón 100g","7000000000219","Frutas","2027-08-24","Dole",3.93,453
+"Costilla de Res Extra","7000000000220","Carnes","2026-03-30","Colonial",140.1,326
+"Helado de Vainilla 200ml","7000000000221","Congelados","2028-08-22","Ardo",63.79,72
+"Pan Integral 200ml","7000000000222","Panaderia","2027-10-06","Bimbo",14.04,121
+"Cerveza Lager 1kg","7000000000223","Alcoholicas","2027-03-07","Heineken",98.05,344
+"Polvo para Hornear Familiar","7000000000224","Harinas y Reposteria","2028-04-17","Maizena",42.89,80
+"Vino Blanco 250ml","7000000000225","Alcoholicas","2027-09-30","Santa Rita",122.35,481
+"Agua Mineral 330ml","7000000000226","Bebidas","2026-03-21","Tropicana",38.25,487
+"Ketchup 250ml","7000000000227","Salsas","2028-11-05","Lea & Perrins",24.69,462
+"Champú 1L","7000000000228","Higiene Personal","2027-03-27","Head & Shoulders",38.45,496
+"Sardinas en Lata 500ml","7000000000229","Enlatados","2028-09-19","Campbell's",17.42,328
+"Camarón 1L","7000000000230","Mariscos","2026-11-15","Camarón Real",91.15,65
+"Mantequilla de Maní 250g","7000000000231","Lacteos","2025-05-21","NaturMilk",67.24,284
+"Cebolla en Polvo 250g","7000000000232","Especias y Condimentos","2026-04-23","Schwartz",16.5,76
+"Mantequilla de Maní","7000000000233","Lacteos","2026-07-22","NaturMilk",69.38,75
+"Frijoles Enlatados 2L","7000000000234","Granos y Cereales","2025-12-24","Mi Cosecha",10.84,444
+"Queso Cheddar","7000000000235","Lacteos","2027-01-04","Lala",64.25,122
+"Filete de Tilapia","7000000000236","Mariscos","2025-12-23","MarMar",95.73,65
+"Fécula de Maíz Grande","7000000000237","Harinas y Reposteria","2025-08-21","Fleischmann",43.05,244
+"Tomate Grande","7000000000238","Verduras","2028-04-30","Bio Selecto",5.05,258
+"Tomillo 1L","7000000000239","Especias y Condimentos","2028-09-11","Schwartz",23.25,235
+"Jabón Líquido 1L","7000000000240","Higiene Personal","2027-09-08","Colgate",87.02,219
+"Bolsas de Basura Mediano","7000000000241","Limpieza del Hogar","2028-12-29","Ariel",82.78,38
+"Arroz Blanco Extra","7000000000242","Granos y Cereales","2025-10-31","Barilla",8.89,141
+"Detergente Líquido Premium","7000000000243","Limpieza del Hogar","2028-12-29","Lysol",36.01,306
+"Filete de Pollo Pequeño","7000000000244","Carnes","2027-11-02","Colonial",132.92,51
+"Tahini Premium","7000000000245","Especias y Condimentos","2026-03-17","McCormick",20.05,455
+"Paprika 750ml","7000000000246","Especias y Condimentos","2027-07-18","Goya",18.96,374
+"Lentejas Familiar","7000000000247","Granos y Cereales","2026-10-03","Barilla",35.26,192
+"Pera en Lata 500ml","7000000000248","Enlatados","2025-07-06","Campbell's",39.11,48
+"Melón 330ml","7000000000249","Frutas","2025-09-24","Dole",23.59,301
+"Costilla de Res 750ml","7000000000250","Carnes","2028-10-04","Fud",50.78,182
+"Nata Montada 1L","7000000000251","Lacteos","2026-08-13","Sello Rojo",50.03,181
+"Pasta Penne Grande","7000000000252","Granos y Cereales","2026-03-12","Mi Cosecha",12.81,247
+"Canela 330ml","7000000000253","Especias y Condimentos","2028-02-14","McCormick",17.86,391
+"Agua Mineral 100g","7000000000254","Bebidas","2027-05-29","Nestlé",68.39,499
+"Mermelada de Fresa Extra","7000000000255","Frutas","2028-10-14","NaturFresh",26.78,14
+"Huevo de Gallina","7000000000256","Huevos","2026-01-05","Gold Kist",27.3,391
+"Refresco de Lima 330ml","7000000000257","Bebidas","2025-01-13","Coca-Cola",18.61,74
+"Hígado de Res 500ml","7000000000258","Carnes","2025-10-18","Noel",155.96,498
+"Queso Mozzarella Grande","7000000000259","Lacteos","2026-03-17","Dos Pinos",33.21,233
+"Leche de Soya 330ml","7000000000260","Lacteos","2026-10-01","Lala",59.12,398
+"Chuleta de Cerdo 500ml","7000000000261","Carnes","2025-04-18","Fud",56.45,387
+"Detergente en Polvo 500ml","7000000000262","Limpieza del Hogar","2026-07-12","Ariel",45.45,218
+"Lechuga Pequeño","7000000000263","Verduras","2027-04-29","Verde",9.65,387
+"Chile Jalapeño 330ml","7000000000264","Verduras","2027-05-31","Del Campo",5.1,348
+"Servilletas de Papel Mediano","7000000000265","Limpieza del Hogar","2027-12-16","Lysol",63.37,24
+"Tomillo Extra","7000000000266","Especias y Condimentos","2025-04-23","Goya",5.27,155
+"Comino 2L","7000000000267","Especias y Condimentos","2026-08-16","Knorr",16.48,4
+"Berenjena 500g","7000000000268","Verduras","2025-09-22","Fresh Market",12.65,361
+"Paprika Premium","7000000000269","Especias y Condimentos","2028-09-30","Schwartz",33.22,37
+"Arándano Familiar","7000000000270","Frutas","2025-02-08","Dole",20.01,40
+"Crema Agria Light","7000000000271","Lacteos","2027-05-30","Alpura",48.0,364
+"Jabón de Barra 200ml","7000000000272","Higiene Personal","2025-08-24","Oral-B",49.43,495
+"Té Verde Extra","7000000000273","Bebidas","2027-08-01","Del Valle",67.4,471
+"Plátano Familiar","7000000000274","Frutas","2025-08-05","Dole",12.0,302
+"Frambuesa 500ml","7000000000275","Frutas","2027-03-22","NaturFresh",35.21,382
+"Leche de Almendra 750ml","7000000000276","Lacteos","2025-12-11","Lala",10.73,325
+"Fideos Grande","7000000000277","Granos y Cereales","2026-02-02","Mi Cosecha",45.86,179
+"Bebida de Avena 100g","7000000000278","Desayuno","2025-07-30","Nestlé",28.79,102
+"Manteca Vegetal 1kg","7000000000279","Aceites y Grasas","2028-09-04","Mazola",27.54,488
+"Mermelada de Naranja Pequeño","7000000000280","Frutas","2028-02-29","Del Campo",31.12,230
+"Papel de Cocina Extra","7000000000281","Limpieza del Hogar","2026-10-24","Lysol",79.14,322
+"Café Molido Pequeño","7000000000282","Bebidas","2025-05-20","Del Valle",40.17,324
+"Refresco de Cola Light","7000000000283","Bebidas","2025-04-26","Coca-Cola",31.4,38
+"Refresco de Lima Pequeño","7000000000284","Bebidas","2025-03-19","Pepsi",9.27,426
+"Jugo de Manzana 500ml","7000000000285","Bebidas","2028-06-13","Tropicana",49.56,197
+"Ajo Premium","7000000000286","Verduras","2025-03-26","Verde",14.59,415
+"Lomo de Cerdo 750ml","7000000000287","Carnes","2028-05-24","Suiza",110.86,78
+"Tortillas de Harina 250ml","7000000000288","Panaderia","2026-12-05","Pan Artesano",59.08,44
+"Rábano 1L","7000000000289","Verduras","2026-05-23","NaturVerd",21.81,225
+"Habas Extra","7000000000290","Verduras","2025-11-22","Verde",12.19,470
+"Jugo de Naranja Familiar","7000000000291","Bebidas","2026-11-24","Pepsi",55.92,27
+"Crema de Avellanas 500ml","7000000000292","Lacteos","2026-11-07","Alpura",12.09,348
+"Durazno 2L","7000000000293","Frutas","2028-09-06","Fresh Del Monte",38.68,309
+"Nata Montada 750ml","7000000000294","Lacteos","2025-06-16","Lala",48.71,73
+"Bebida de Avena 6-pack","7000000000295","Desayuno","2025-09-22","General Mills",55.7,481
+"Arroz Integral Premium","7000000000296","Granos y Cereales","2027-02-11","Barilla",34.31,169
+"Hamburguesa Congelada Grande","7000000000297","Congelados","2025-07-11","Iglo",86.37,217
+"Champiñón","7000000000298","Verduras","2027-01-13","Bio Selecto",10.65,487
+"Comino Mediano","7000000000299","Especias y Condimentos","2026-01-29","Maggi",12.93,71
+"Pera en Lata 200ml","7000000000300","Enlatados","2025-07-27","Clemente Jacques",27.77,277
+"Paleta de Limón 1L","7000000000301","Frutas","2028-09-17","NaturFresh",15.46,393
+"Detergente en Polvo Extra","7000000000302","Limpieza del Hogar","2027-02-11","Fabuloso",22.34,93
+"Helado de Fresa 500g","7000000000303","Frutas","2027-06-16","NaturFresh",4.62,187
+"Servilletas de Papel Pequeño","7000000000304","Limpieza del Hogar","2028-06-04","Fabuloso",32.79,384
+"Dulce de Leche 100g","7000000000305","Lacteos","2027-12-30","Sello Rojo",22.94,495
+"Nuggets de Pollo 250g","7000000000306","Carnes","2027-01-24","Noel",145.31,293
+"Coco Rallado 200ml","7000000000307","Frutas","2027-02-22","Del Campo",21.61,215
+"Aceite Vegetal Extra","7000000000308","Aceites y Grasas","2025-10-11","Nutrioli",107.3,27
+"Jabón Líquido 330ml","7000000000309","Higiene Personal","2028-02-10","Oral-B",94.41,365
+"Queso Gouda 250ml","7000000000310","Lacteos","2026-08-07","NaturMilk",11.29,83
+"Salsa Teriyaki Grande","7000000000311","Especias y Condimentos","2025-10-29","Goya",34.09,47
+"Tomillo 330ml","7000000000312","Especias y Condimentos","2025-02-24","Goya",19.52,203
+"Apio 100g","7000000000313","Verduras","2027-03-02","Bio Selecto",29.85,192
+"Canela 750ml","7000000000314","Especias y Condimentos","2025-07-22","McCormick",34.37,333
+"Chocolate en Polvo 1kg","7000000000315","Bebidas","2025-03-20","Del Valle",26.52,425
+"Pimiento Verde Mediano","7000000000316","Verduras","2027-07-08","NaturVerd",19.23,464
+"Arroz Blanco 2L","7000000000317","Granos y Cereales","2026-03-18","Maseca",42.74,281
+"Harina de Trigo Grande","7000000000318","Harinas y Reposteria","2027-05-17","Maizena",13.23,148
+"Pan de Molde Familiar","7000000000319","Panaderia","2028-08-01","Marinela",49.28,235
+"Galletas de Chocolate Mediano","7000000000320","Panaderia","2028-05-07","Bimbo",35.87,324
+"Chile Jalapeño 100g","7000000000321","Verduras","2025-10-22","Verde",10.16,1
+"Clara de Huevo Pasteurizada 100g","7000000000322","Huevos","2028-03-14","Gold Kist",33.75,341
+"Enjuague Bucal Grande","7000000000323","Higiene Personal","2027-01-09","Colgate",20.75,270
+"Salchicha de Pollo Grande","7000000000324","Especias y Condimentos","2028-02-09","Schwartz",5.71,448
+"Pimiento Verde 6-pack","7000000000325","Verduras","2027-02-04","Del Campo",9.1,9
+"Manzana Verde 330ml","7000000000326","Frutas","2026-05-09","Dole",30.12,322
+"Pasta Penne 750ml","7000000000327","Granos y Cereales","2025-10-01","Mi Cosecha",7.95,280
+"Leche de Almendra Pequeño","7000000000328","Lacteos","2028-11-25","Lala",40.89,94
+"Nuggets de Pollo 500ml","7000000000329","Carnes","2027-07-27","Suiza",36.29,104
+"Pan Integral 1L","7000000000330","Panaderia","2026-10-09","Marinela",56.54,264
+"Arándano Mediano","7000000000331","Frutas","2026-06-03","NaturFresh",4.35,332
+"Jarabe de Maple 330ml","7000000000332","Endulzantes","2025-04-08","Azucarera",53.02,170
+"Salsa Teriyaki 330ml","7000000000333","Especias y Condimentos","2027-06-14","McCormick",36.13,381
+"Coco Rallado 750ml","7000000000334","Frutas","2026-01-18","Del Campo",21.36,255
+"Mandarina 2L","7000000000335","Frutas","2025-06-19","NaturFresh",29.9,41
+"Melón 500g","7000000000336","Frutas","2028-01-23","NaturFresh",13.87,53
+"Arroz Blanco 200ml","7000000000337","Granos y Cereales","2026-09-20","Barilla",25.62,368
+"Sandía Pequeño","7000000000338","Frutas","2026-12-21","Chiquita",19.54,373
+"Leche Evaporada Extra","7000000000339","Lacteos","2027-06-10","Alpura",25.59,406
+"Tortillas de Maíz 6-pack","7000000000340","Panaderia","2027-01-15","Bimbo",34.68,384
+"Servilletas de Papel","7000000000341","Limpieza del Hogar","2025-10-20","Fabuloso",77.89,348
+"Dulce de Leche 1L","7000000000342","Lacteos","2025-09-16","Sello Rojo",10.04,399
+"Champú 330ml","7000000000343","Higiene Personal","2027-02-24","Head & Shoulders",95.7,17
+"Calamar Pequeño","7000000000344","Mariscos","2027-01-30","Ocean Fresh",118.12,391
+"Bizcocho 1kg","7000000000345","Panaderia","2027-12-21","El Molino",27.08,161
+"Acondicionador 100g","7000000000346","Higiene Personal","2025-08-21","Head & Shoulders",17.2,96
+"Berenjena 6-pack","7000000000347","Verduras","2028-02-25","Verde",5.3,397
+"Vinagre de Manzana 250g","7000000000348","Salsas","2028-06-07","Cholula",21.42,470
+"Pepino 250ml","7000000000349","Verduras","2025-10-05","NaturVerd",25.88,232
+"Manteca Vegetal 500ml","7000000000350","Aceites y Grasas","2028-10-28","La Española",116.76,164
+"Hilo Dental 500ml","7000000000351","Higiene Personal","2028-02-01","Head & Shoulders",61.08,457
+"Jugo de Uva 500g","7000000000352","Bebidas","2027-01-11","Del Valle",43.16,63
+"Pimienta Negra 100g","7000000000353","Especias y Condimentos","2027-10-09","Knorr",5.92,284
+"Lomo de Cerdo Pequeño","7000000000354","Carnes","2028-02-04","Colonial",52.06,453
+"Frijoles Negros 200ml","7000000000355","Granos y Cereales","2027-03-27","Maseca",49.98,369
+"Coliflor Familiar","7000000000356","Verduras","2027-04-19","Verde",25.05,38
+"Pollo Enlatado 500ml","7000000000357","Enlatados","2027-07-11","Hunt's",26.3,265
+"Leche de Coco Premium","7000000000358","Lacteos","2028-08-03","Lala",49.08,394
+"Frijoles Enlatados Grande","7000000000359","Granos y Cereales","2025-04-24","Knorr",42.58,266
+"Pera en Lata 500g","7000000000360","Enlatados","2025-11-28","Hunt's",21.29,364
+"Canela Grande","7000000000361","Especias y Condimentos","2026-08-05","Maggi",34.61,129
+"Sal de Mesa 2L","7000000000362","Especias y Condimentos","2025-09-14","Schwartz",26.88,315
+"Pechuga de Pollo Grande","7000000000363","Carnes","2028-08-05","San Rafael",58.67,483
+"Tocino 500g","7000000000364","Carnes","2028-09-11","Suiza",136.16,462
+"Calamar Light","7000000000365","Mariscos","2025-03-26","MarMar",213.3,15
+"Arroz Blanco Light","7000000000366","Granos y Cereales","2026-06-27","Maseca",34.65,393
+"Lomo de Cerdo Extra","7000000000367","Carnes","2028-08-01","Noel",35.15,456
+"Suavizante de Ropa 200ml","7000000000368","Limpieza del Hogar","2028-08-07","Lysol",86.53,248
+"Mayonesa 200ml","7000000000369","Salsas","2027-07-18","Cholula",12.92,31
+"Aceite de Oliva Familiar","7000000000370","Aceites y Grasas","2027-09-19","La Española",66.44,175
+"Huevo de Gallina 750ml","7000000000371","Huevos","2026-10-16","Los Pollos",48.04,441
+"Leche de Coco 1kg","7000000000372","Lacteos","2027-01-29","Sello Rojo",43.62,55
+"Café Instantáneo Pequeño","7000000000373","Bebidas","2025-09-08","Del Valle",25.06,127
+"Champiñones Enlatados 1L","7000000000374","Enlatados","2026-08-18","Clemente Jacques",43.09,443
+"Clara de Huevo Pasteurizada 100g","7000000000375","Huevos","2025-11-24","NaturEgg",51.61,479
+"Jamón 250g","7000000000376","Carnes","2025-11-23","Colonial",114.71,264
+"Pimiento Rojo 200ml","7000000000377","Verduras","2027-10-16","Fresh Market",2.65,484
+"Fresa Pequeño","7000000000378","Frutas","2026-05-09","NaturFresh",10.96,181
+"Pan de Molde 200ml","7000000000379","Panaderia","2027-10-11","Bimbo",39.07,432
+"Gel de Ducha 200ml","7000000000380","Higiene Personal","2028-01-05","Oral-B",15.7,56
+"Melón 2L","7000000000381","Frutas","2027-01-20","Chiquita",31.26,188
+"Pan Integral 1L","7000000000382","Panaderia","2028-03-13","Pan Artesano",37.21,186
+"Bistec de Res 500ml","7000000000383","Carnes","2027-03-03","Colonial",115.72,392
+"Carne Molida de Res Extra","7000000000384","Carnes","2028-10-25","Colonial",133.88,66
+"Lentejas 330ml","7000000000385","Granos y Cereales","2026-11-26","Knorr",30.54,188
+"Extracto de Vainilla 250g","7000000000386","Harinas y Reposteria","2028-05-18","Selecta",31.93,257
+"Pan Blanco 1L","7000000000387","Panaderia","2025-10-08","Bimbo",45.11,412
+"Brócoli Pequeño","7000000000388","Verduras","2025-11-02","Verde",18.98,264
+"Tomate en Lata Extra","7000000000389","Enlatados","2026-10-15","Hunt's",15.69,316
+"Fécula de Maíz Light","7000000000390","Harinas y Reposteria","2026-11-20","Harina Espiga",31.84,261
+"Pechuga de Pollo Light","7000000000391","Carnes","2026-09-06","Noel",110.73,9
+"Mandarina 250ml","7000000000392","Frutas","2027-05-04","Fresh Del Monte",24.6,408
+"Cereal de Arroz Extra","7000000000393","Granos y Cereales","2027-08-30","Maseca",17.68,336
+"Dulce de Leche Light","7000000000394","Lacteos","2026-04-12","NaturMilk",59.11,299
+"Coliflor Grande","7000000000395","Verduras","2028-07-12","NaturVerd",22.19,397
+"Queso Parmesano 1kg","7000000000396","Lacteos","2028-10-26","Sello Rojo",23.16,294
+"Limpiavidrios 250g","7000000000397","Limpieza del Hogar","2025-02-08","Ariel",45.28,215
+"Piña en Lata 250g","7000000000398","Enlatados","2027-04-21","Campbell's",27.56,314
+"Pimiento Verde 1kg","7000000000399","Verduras","2027-11-29","Del Campo",7.81,167
+"Cepillo de Dientes Grande","7000000000400","Higiene Personal","2027-02-11","Oral-B",41.67,89
+"Cebolla 750ml","7000000000401","Verduras","2028-01-24","Verde",11.92,396
+"Espinaca 100g","7000000000402","Verduras","2026-07-26","NaturVerd",17.63,116
+"Jugo de Uva 250g","7000000000403","Bebidas","2028-11-14","Coca-Cola",57.87,163
+"Coliflor Premium","7000000000404","Verduras","2026-07-15","Bio Selecto",10.06,294
+"Servilletas de Papel 6-pack","7000000000405","Limpieza del Hogar","2027-03-20","Lysol",75.47,489
+"Mermelada de Naranja 200ml","7000000000406","Frutas","2025-03-28","Chiquita",13.64,366
+"Arroz Blanco Pequeño","7000000000407","Granos y Cereales","2028-09-05","Barilla",17.28,246
+"Comino Premium","7000000000408","Especias y Condimentos","2026-07-10","Knorr",37.66,357
+"Salsa Teriyaki 250ml","7000000000409","Especias y Condimentos","2028-06-14","Knorr",30.93,123
+"Mayonesa Grande","7000000000410","Salsas","2026-04-08","Heinz",35.52,27
+"Pasta Espagueti 750ml","7000000000411","Granos y Cereales","2027-08-26","Knorr",10.42,395
+"Tomate en Lata Premium","7000000000412","Enlatados","2025-11-20","Clemente Jacques",24.24,479
+"Vino Tinto Mediano","7000000000413","Alcoholicas","2028-08-25","Santa Rita",59.92,494
+"Jugo de Manzana 200ml","7000000000414","Bebidas","2028-08-15","Coca-Cola",9.44,394
+"Frijoles Negros 100g","7000000000415","Granos y Cereales","2028-01-01","Mi Cosecha",38.5,436
+"Crema de Leche Familiar","7000000000416","Lacteos","2025-12-27","Lala",75.04,19
+"Paleta de Mango Mediano","7000000000417","Frutas","2026-01-17","Del Campo",37.65,493
+"Nata Montada 1L","7000000000418","Lacteos","2025-01-19","Alpura",27.38,309
+"Pasta Fusilli 200ml","7000000000419","Granos y Cereales","2027-07-20","Barilla",49.52,279
+"Habas 1kg","7000000000420","Verduras","2027-10-30","Fresh Market",15.1,99
+"Nuggets de Pollo 750ml","7000000000421","Carnes","2025-11-29","San Rafael",154.29,332
+"Vinagre Blanco","7000000000422","Salsas","2026-11-22","Hellmann's",41.63,291
+"Papel Higiénico 500g","7000000000423","Limpieza del Hogar","2028-06-05","Fabuloso",78.49,460
+"Mora Grande","7000000000424","Frutas","2026-11-03","Del Campo",6.21,343
+"Lentejas 1kg","7000000000425","Granos y Cereales","2027-09-05","La Moderna",20.24,128
+"Leche Descremada 6-pack","7000000000426","Lacteos","2026-04-28","Alpura",38.51,137
+"Té de Manzanilla Light","7000000000427","Bebidas","2028-03-19","Coca-Cola",5.86,335
+"Plátano 1L","7000000000428","Frutas","2028-09-29","Chiquita",7.37,158
+"Aceite de Oliva Grande","7000000000429","Aceites y Grasas","2028-12-11","La Española",96.98,354
+"Atún en Lata 330ml","7000000000430","Enlatados","2028-06-12","Hunt's",17.73,491
+"Maíz Enlatado 1kg","7000000000431","Enlatados","2027-07-21","Campbell's",36.17,311
+"Limón Premium","7000000000432","Frutas","2027-08-23","Del Campo",31.02,411
+"Hilo Dental 100g","7000000000433","Higiene Personal","2028-10-25","Dove",79.15,448
+"Mantequilla de Maní Grande","7000000000434","Lacteos","2027-07-04","Dos Pinos",44.61,186
+"Bizcocho 250ml","7000000000435","Panaderia","2025-05-07","El Molino",51.1,463
+"Rábano Light","7000000000436","Verduras","2028-01-05","NaturVerd",6.2,168
+"Queso Ricotta Pequeño","7000000000437","Lacteos","2025-08-27","NaturMilk",56.02,368
+"Salchicha de Cerdo 500ml","7000000000438","Especias y Condimentos","2027-11-12","Goya",20.59,29
+"Zanahoria Grande","7000000000439","Verduras","2027-05-01","NaturVerd",14.79,30
+"Costilla de Res 200ml","7000000000440","Carnes","2025-02-14","Noel",97.31,419
+"Leche Entera Light","7000000000441","Lacteos","2025-05-30","Lala",8.4,177
+"Limpiavidrios Premium","7000000000442","Limpieza del Hogar","2025-05-04","Ariel",84.77,36
+"Pimiento Verde 200ml","7000000000443","Verduras","2027-04-18","Del Campo",7.04,70
+"Mermelada de Fresa 330ml","7000000000444","Frutas","2027-02-23","Del Campo",19.6,470
+"Lima 500ml","7000000000445","Frutas","2028-10-30","Del Campo",38.67,448
+"Pollo Entero 330ml","7000000000446","Carnes","2025-08-31","Suiza",60.34,276
+"Fresa 1kg","7000000000447","Frutas","2026-04-02","NaturFresh",33.89,388
+"Queso Fresco Pequeño","7000000000448","Lacteos","2028-10-11","Alpura",58.93,218
+"Pechuga de Pollo 100g","7000000000449","Carnes","2026-05-22","Noel",108.31,80
+"Agua Pura 250ml","7000000000450","Bebidas","2025-03-07","Del Valle",65.71,215
+"Clara de Huevo Pasteurizada 100g","7000000000451","Huevos","2026-02-27","San Juan",18.03,305
+"Mantequilla Extra","7000000000452","Lacteos","2028-10-08","Sello Rojo",57.75,25
+"Mayonesa 6-pack","7000000000453","Salsas","2027-06-18","Heinz",19.37,112
+"Extracto de Vainilla 1kg","7000000000454","Harinas y Reposteria","2027-10-29","Maseca",54.69,120
+"Hamburguesa Congelada 750ml","7000000000455","Congelados","2028-03-28","Birds Eye",81.8,345
+"Papas a la Francesa Congeladas 100g","7000000000456","Verduras","2026-09-11","Bio Selecto",26.54,339
+"Ejote Familiar","7000000000457","Verduras","2026-09-08","NaturVerd",9.7,286
+"Filete de Salmón Familiar","7000000000458","Especias y Condimentos","2028-02-13","Knorr",22.35,498
+"Leche de Coco Grande","7000000000459","Lacteos","2026-10-15","Sello Rojo",57.22,210
+"Piña en Lata 6-pack","7000000000460","Enlatados","2026-01-12","Hunt's",36.4,243
+"Mostaza 200ml","7000000000461","Salsas","2028-12-20","Hellmann's",15.77,238
+"Tortillas de Maíz Familiar","7000000000462","Panaderia","2027-05-04","El Molino",36.98,69
+"Ciruela 2L","7000000000463","Frutas","2026-02-21","Chiquita",15.22,41
+"Papa 500ml","7000000000464","Verduras","2028-01-02","Bio Selecto",22.29,98
+"Pan Pita 6-pack","7000000000465","Panaderia","2028-10-11","Wonder",39.46,21
+"Nata Montada 250g","7000000000466","Lacteos","2028-04-18","Dos Pinos",59.32,287
+"Orégano 250g","7000000000467","Especias y Condimentos","2026-11-13","Goya",15.61,466
+"Yogur de Fresa 250g","7000000000468","Lacteos","2025-08-29","Lala",61.02,387
+"Coliflor Extra","7000000000469","Verduras","2028-12-12","NaturVerd",7.73,469
+"Mostaza 750ml","7000000000470","Salsas","2026-08-03","Valentina",25.23,274
+"Acondicionador 200ml","7000000000471","Higiene Personal","2026-06-20","Head & Shoulders",45.57,452
+"Berenjena 250ml","7000000000472","Verduras","2027-08-20","Fresh Market",23.33,164
+"Ajo en Polvo 750ml","7000000000473","Especias y Condimentos","2027-04-28","Maggi",6.6,443
+"Tomillo","7000000000474","Especias y Condimentos","2026-06-19","Knorr",24.37,300
+"Tocino 200ml","7000000000475","Carnes","2025-11-09","Noel",63.35,118
+"Berenjena 750ml","7000000000476","Verduras","2026-06-12","Verde",23.37,251
+"Cereal de Arroz Pequeño","7000000000477","Granos y Cereales","2025-12-11","Knorr",38.24,181
+"Aceite de Coco Premium","7000000000478","Aceites y Grasas","2027-09-28","Nutrioli",38.4,456
+"Pollo Entero Grande","7000000000479","Carnes","2025-03-11","San Rafael",172.64,39
+"Papas a la Francesa Congeladas","7000000000480","Verduras","2027-04-25","Del Campo",5.85,323
+"Curry en Polvo 1kg","7000000000481","Especias y Condimentos","2025-01-19","McCormick",12.66,234
+"Limón Extra","7000000000482","Frutas","2028-07-30","Dole",27.67,316
+"Espinaca","7000000000483","Verduras","2025-01-14","Fresh Market",16.9,211
+"Yogur de Fresa Grande","7000000000484","Lacteos","2026-07-17","Dos Pinos",45.18,147
+"Yogur de Vainilla Familiar","7000000000485","Lacteos","2026-01-03","NaturMilk",13.03,50
+"Habas 100g","7000000000486","Verduras","2026-01-29","NaturVerd",19.35,130
+"Hamburguesa Congelada 2L","7000000000487","Congelados","2027-03-24","Findus",32.51,492
+"Mora Light","7000000000488","Frutas","2026-05-14","Del Campo",39.64,116
+"Jugo de Uva 1L","7000000000489","Bebidas","2025-07-11","Tropicana",35.4,194
+"Bistec de Res 1L","7000000000490","Carnes","2028-07-28","Noel",31.61,88
+"Arroz Integral Familiar","7000000000491","Granos y Cereales","2028-08-13","Knorr",40.51,290
+"Queso Crema Grande","7000000000492","Lacteos","2025-03-29","Dos Pinos",22.23,462
+"Leche Evaporada Mediano","7000000000493","Lacteos","2026-07-10","NaturMilk",8.49,39
+"Bolsas de Basura Premium","7000000000494","Limpieza del Hogar","2028-02-29","Clorox",62.65,92
+"Queso Suizo","7000000000495","Lacteos","2026-03-01","Alpura",49.03,386
+"Helado de Vainilla 500ml","7000000000496","Congelados","2026-09-05","Ardo",40.43,124
+"Chuleta de Cerdo Premium","7000000000497","Carnes","2026-11-11","Noel",95.25,379
+"Tomate en Lata Grande","7000000000498","Enlatados","2026-12-10","Clemente Jacques",11.88,224
+"Curry en Polvo 750ml","7000000000499","Especias y Condimentos","2028-05-24","McCormick",31.92,489
+"Camarón 750ml","7000000000500","Mariscos","2025-03-02","Pescanova",173.17,402
+"Papa 100g","7000000000501","Verduras","2026-12-30","Fresh Market",17.49,193
+"Melón Light","7000000000502","Frutas","2028-09-15","Chiquita",17.06,396
+"Detergente en Polvo 100g","7000000000503","Limpieza del Hogar","2028-12-31","Clorox",15.88,138
+"Pera en Lata 1kg","7000000000504","Enlatados","2027-03-09","Campbell's",21.08,55
+"Frijoles Rojos 200ml","7000000000505","Granos y Cereales","2027-06-30","Maseca",21.84,139
+"Pasta Penne 500ml","7000000000506","Granos y Cereales","2026-01-19","La Moderna",24.96,286
+"Lomo de Res Familiar","7000000000507","Carnes","2025-07-31","Fud",34.46,182
+"Bistec de Res Extra","7000000000508","Carnes","2028-05-09","San Rafael",163.35,443
+"Durazno 200ml","7000000000509","Frutas","2027-04-28","Dole",17.35,44
+"Cereal de Arroz 100g","7000000000510","Granos y Cereales","2028-03-17","Mi Cosecha",28.93,351
+"Pera 1kg","7000000000511","Frutas","2026-07-05","Chiquita",14.14,253
+"Duraznos en Lata 500g","7000000000512","Enlatados","2027-06-10","Clemente Jacques",19.66,154
+"Espinaca 330ml","7000000000513","Verduras","2026-05-31","Del Campo",28.44,370
+"Suavizante de Ropa Extra","7000000000514","Limpieza del Hogar","2028-06-16","Ajax",25.64,55
+"Maíz Enlatado","7000000000515","Enlatados","2027-03-22","Hunt's",21.63,318
+"Pera Pequeño","7000000000516","Frutas","2026-11-17","Fresh Del Monte",18.93,422
+"Crema Agria 1kg","7000000000517","Lacteos","2026-09-08","NaturMilk",29.05,486
+"Guantes de Hule Mediano","7000000000518","Limpieza del Hogar","2026-10-06","Fabuloso",24.21,204
+"Café Instantáneo Mediano","7000000000519","Bebidas","2028-03-25","Coca-Cola",63.65,167
+"Lima 6-pack","7000000000520","Frutas","2027-01-18","Fresh Del Monte",7.21,289
+"Pimienta Negra Premium","7000000000521","Especias y Condimentos","2026-01-04","Schwartz",28.86,282
+"Queso Cheddar 250g","7000000000522","Lacteos","2027-06-17","Sello Rojo",64.83,426
+"Guantes de Hule Familiar","7000000000523","Limpieza del Hogar","2028-10-10","Ariel",49.94,325
+"Refresco de Cola 2L","7000000000524","Bebidas","2028-09-10","Del Valle",16.56,217
+"Crema de Avellanas 500ml","7000000000525","Lacteos","2027-07-09","Sello Rojo",79.3,246
+"Salchicha de Cerdo Premium","7000000000526","Especias y Condimentos","2027-11-04","Goya",37.32,446
+"Guantes de Hule Premium","7000000000527","Limpieza del Hogar","2025-03-17","Ajax",73.26,185
+"Limpiavidrios Extra","7000000000528","Limpieza del Hogar","2028-07-30","Lysol",83.15,56
+"Mermelada de Fresa 330ml","7000000000529","Frutas","2025-12-07","Chiquita",26.94,23
+"Hígado de Res 750ml","7000000000530","Carnes","2027-06-01","Noel",48.01,51
+"Vinagre de Manzana Grande","7000000000531","Salsas","2027-11-29","Hellmann's",32.32,353
+"Jamón Pequeño","7000000000532","Carnes","2027-02-06","Suiza",96.49,396
+"Servilletas de Papel Grande","7000000000533","Limpieza del Hogar","2025-11-05","Lysol",37.6,13
+"Espinaca 200ml","7000000000534","Verduras","2027-05-02","Del Campo",27.78,44
+"Fideos 330ml","7000000000535","Granos y Cereales","2026-10-01","La Moderna",21.09,402
+"Ajo en Polvo Mediano","7000000000536","Especias y Condimentos","2026-12-15","Schwartz",21.67,225
+"Cereal de Trigo 750ml","7000000000537","Desayuno","2025-05-18","Quaker",38.02,415
+"Avena en Hojuelas","7000000000538","Desayuno","2026-12-04","Kellogg's",58.88,347
+"Hummus 100g","7000000000539","Verduras","2027-11-23","NaturVerd",6.88,82
+"Té de Manzanilla Familiar","7000000000540","Bebidas","2027-08-05","Nestlé",22.39,208
+"Blanqueador 500g","7000000000541","Limpieza del Hogar","2028-08-04","Fabuloso",62.58,203
+"Queso Mozzarella 250g","7000000000542","Lacteos","2027-07-10","NaturMilk",49.42,200
+"Leche Descremada 250g","7000000000543","Lacteos","2026-07-25","Lala",61.42,415
+"Tahini Light","7000000000544","Especias y Condimentos","2025-07-28","McCormick",32.98,275
+"Miel de Abeja 750ml","7000000000545","Endulzantes","2026-02-08","Azucarera",31.79,135
+"Enjuague Bucal Grande","7000000000546","Higiene Personal","2028-08-01","Oral-B",41.64,199
+"Huevo de Codorniz Light","7000000000547","Huevos","2025-08-22","NaturEgg",30.66,433
+"Cebolla 500g","7000000000548","Verduras","2028-10-11","Verde",21.77,153
+"Clara de Huevo Pasteurizada 500ml","7000000000549","Huevos","2028-10-08","AviCamp",21.03,61
+"Mostaza 250ml","7000000000550","Salsas","2026-01-10","Lea & Perrins",24.93,73
+"Champiñón Familiar","7000000000551","Verduras","2028-05-06","Fresh Market",5.86,197
+"Papaya Mediano","7000000000552","Frutas","2028-07-25","Chiquita",22.88,471
+"Champú Premium","7000000000553","Higiene Personal","2025-12-08","Dove",56.62,72
+"Miel de Abeja Pequeño","7000000000554","Endulzantes","2028-06-22","Azucarera",10.79,184
+"Yogur Natural 1kg","7000000000555","Lacteos","2026-02-04","Sello Rojo",66.14,494
+"Costilla de Res Mediano","7000000000556","Carnes","2027-04-18","Fud",146.4,213
+"Avena en Hojuelas Mediano","7000000000557","Desayuno","2025-12-09","Quaker",24.96,16
+"Tahini 200ml","7000000000558","Especias y Condimentos","2025-03-08","Knorr",14.62,276
+"Jugo de Manzana Pequeño","7000000000559","Bebidas","2028-03-04","Del Valle",60.69,393
+"Calabacín Grande","7000000000560","Verduras","2025-08-20","Verde",18.04,138
+"Mermelada de Mora 330ml","7000000000561","Frutas","2028-01-16","NaturFresh",33.44,22
+"Chispas de Chocolate Premium","7000000000562","Harinas y Reposteria","2026-03-24","Fleischmann",54.52,53
+"Harina de Avena 200ml","7000000000563","Desayuno","2025-03-08","Nestlé",46.98,179
+"Crema Agria Pequeño","7000000000564","Lacteos","2025-08-29","Dos Pinos",63.17,122
+"Cebolla en Polvo 330ml","7000000000565","Especias y Condimentos","2028-12-26","Schwartz",26.36,220
+"Aceite de Girasol 1kg","7000000000566","Aceites y Grasas","2026-02-28","Mazola",101.35,413
+"Tortillas de Harina 330ml","7000000000567","Panaderia","2027-12-27","El Molino",22.62,276
+"Aceite de Coco 200ml","7000000000568","Aceites y Grasas","2026-08-16","Carbonell",77.27,488
+"Queso Crema 250ml","7000000000569","Lacteos","2025-10-05","NaturMilk",77.21,403
+"Uva Morada 2L","7000000000570","Frutas","2028-09-05","Dole",7.69,444
+"Frijoles Enlatados 1kg","7000000000571","Granos y Cereales","2028-12-27","La Moderna",20.17,127
+"Chispas de Chocolate Mediano","7000000000572","Harinas y Reposteria","2025-10-19","Fleischmann",35.14,138
+"Suavizante de Ropa 6-pack","7000000000573","Limpieza del Hogar","2027-07-15","Ajax",16.04,407
+"Vino Tinto 6-pack","7000000000574","Alcoholicas","2027-11-22","Corona",142.47,356
+"Suero de Leche Pequeño","7000000000575","Lacteos","2027-09-27","Alpura",29.55,2
+"Leche Evaporada Pequeño","7000000000576","Lacteos","2028-07-24","Dos Pinos",54.81,184
+"Queso Suizo Premium","7000000000577","Lacteos","2027-03-26","Dos Pinos",21.34,220
+"Helado de Chocolate Mediano","7000000000578","Congelados","2026-07-04","Iglo",55.67,146
+"Leche de Almendra Light","7000000000579","Lacteos","2025-09-25","NaturMilk",47.46,249
+"Mantequilla de Maní 1L","7000000000580","Lacteos","2025-04-05","Alpura",12.47,402
+"Paleta de Mango","7000000000581","Frutas","2025-09-12","Del Campo",37.39,81
+"Coco Rallado","7000000000582","Frutas","2027-05-27","Del Campo",10.49,353
+"Frijoles Enlatados 500g","7000000000583","Granos y Cereales","2026-07-16","Barilla",10.11,185
+"Salsa de Soya 330ml","7000000000584","Especias y Condimentos","2028-09-22","McCormick",36.63,85
+"Pan Pita 200ml","7000000000585","Panaderia","2028-12-03","Pan Artesano",47.27,220
+"Gel de Ducha 250ml","7000000000586","Higiene Personal","2025-01-03","Colgate",33.14,40
+"Frijoles Enlatados 100g","7000000000587","Granos y Cereales","2027-11-30","Mi Cosecha",35.92,5
+"Yogur Natural 250ml","7000000000588","Lacteos","2027-05-15","Alpura",57.05,245
+"Galletas Saladas 6-pack","7000000000589","Panaderia","2025-07-02","Marinela",46.0,53
+"Pasta Penne 330ml","7000000000590","Granos y Cereales","2026-09-05","Barilla",12.03,397
+"Hamburguesa Congelada 1kg","7000000000591","Congelados","2025-05-21","Iglo",75.4,5
+"Huevo de Codorniz Pequeño","7000000000592","Huevos","2026-12-21","Los Pollos",47.51,322
+"Levadura Familiar","7000000000593","Harinas y Reposteria","2028-06-15","Selecta",40.27,441
+"Orégano 250ml","7000000000594","Especias y Condimentos","2025-10-14","McCormick",31.34,302
+"Harina de Trigo 330ml","7000000000595","Harinas y Reposteria","2027-05-30","Fleischmann",22.78,72
+"Salsa Inglesa 500ml","7000000000596","Especias y Condimentos","2026-05-24","Maggi",24.37,308
+"Cereal de Trigo 200ml","7000000000597","Desayuno","2028-11-15","Post",21.61,434
+"Pasta de Dientes 250g","7000000000598","Granos y Cereales","2027-11-27","Barilla",32.7,97
+"Levadura 200ml","7000000000599","Harinas y Reposteria","2028-08-16","Fleischmann",10.56,460
+"Tahini Mediano","7000000000600","Especias y Condimentos","2027-03-02","Knorr",8.95,256
+"Jabón de Barra 500ml","7000000000601","Higiene Personal","2027-12-18","Gillette",90.54,7
+"Plátano 1kg","7000000000602","Frutas","2027-03-04","Fresh Del Monte",34.85,292
+"Mango Premium","7000000000603","Frutas","2028-10-30","Fresh Del Monte",9.39,242
+"Mermelada de Naranja","7000000000604","Frutas","2028-04-17","Dole",5.5,135
+"Orégano 1L","7000000000605","Especias y Condimentos","2027-03-27","McCormick",22.73,322
+"Granola Familiar","7000000000606","Desayuno","2027-05-18","Post",62.11,43
+"Jabón de Barra Premium","7000000000607","Higiene Personal","2028-06-15","Gillette",27.98,43
+"Refresco de Lima Grande","7000000000608","Bebidas","2026-02-21","Tropicana",78.07,80
+"Muslo de Pollo 6-pack","7000000000609","Carnes","2028-04-16","Colonial",137.83,428
+"Acondicionador 200ml","7000000000610","Higiene Personal","2028-12-01","Colgate",52.19,489
+"Queso Gouda 1L","7000000000611","Lacteos","2026-05-16","Lala",11.47,223
+"Fideos Extra","7000000000612","Granos y Cereales","2028-05-31","Knorr",8.42,342
+"Fécula de Maíz 250ml","7000000000613","Harinas y Reposteria","2025-01-26","Selecta",41.27,360
+"Yogur Natural Mediano","7000000000614","Lacteos","2026-12-12","Lala",44.23,401
+"Helado de Vainilla 500g","7000000000615","Congelados","2027-02-01","Findus",37.06,400
+"Nata Montada 250ml","7000000000616","Lacteos","2025-03-02","Alpura",30.13,220
+"Salsa Teriyaki 500ml","7000000000617","Especias y Condimentos","2026-06-23","Schwartz",29.93,296
+"Suavizante de Ropa Mediano","7000000000618","Limpieza del Hogar","2027-07-22","Ariel",50.86,29
+"Berenjena 500g","7000000000619","Verduras","2027-01-24","Verde",6.4,396
+"Pasta Penne 250ml","7000000000620","Granos y Cereales","2026-04-13","Mi Cosecha",38.59,2
+"Pan Integral 100g","7000000000621","Panaderia","2025-04-05","Bimbo",32.53,197
+"Piña en Lata 1L","7000000000622","Enlatados","2028-02-07","Del Monte",38.11,366
+"Fécula de Maíz 100g","7000000000623","Harinas y Reposteria","2026-10-22","Fleischmann",19.67,469
+"Cereal de Trigo 2L","7000000000624","Desayuno","2025-06-09","General Mills",54.29,62
+"Apio 500g","7000000000625","Verduras","2026-04-03","Del Campo",24.52,24
+"Frambuesa Pequeño","7000000000626","Frutas","2026-08-02","Dole",31.62,160
+"Té Verde Premium","7000000000627","Bebidas","2027-07-25","Tropicana",5.6,103
+"Jugo de Piña 200ml","7000000000628","Bebidas","2028-06-29","Nestlé",23.19,189
+"Filete de Salmón 250g","7000000000629","Especias y Condimentos","2028-01-25","Goya",31.62,126
+"Piña en Lata Familiar","7000000000630","Enlatados","2025-02-18","Clemente Jacques",18.15,178
+"Quitamanchas 750ml","7000000000631","Limpieza del Hogar","2025-01-03","Ariel",70.71,193
+"Queso Suizo 250ml","7000000000632","Lacteos","2026-02-25","Alpura",44.74,122
+"Mango 1L","7000000000633","Frutas","2025-10-19","Del Campo",29.33,48
+"Pan Integral Grande","7000000000634","Panaderia","2027-04-26","Marinela",44.44,191
+"Cebolla Light","7000000000635","Verduras","2025-07-15","Del Campo",16.15,327
+"Papas a la Francesa Congeladas 500ml","7000000000636","Verduras","2028-04-27","Fresh Market",17.9,223
+"Cepillo de Dientes 100g","7000000000637","Higiene Personal","2026-08-21","Dove",37.18,162
+"Guacamole 750ml","7000000000638","Verduras","2026-10-14","Fresh Market",14.68,120
+"Bizcocho 1kg","7000000000639","Panaderia","2028-04-12","Marinela",13.67,55
+"Aceite de Girasol Pequeño","7000000000640","Aceites y Grasas","2026-10-06","La Española",60.65,275
+"Manzana Verde Pequeño","7000000000641","Frutas","2026-09-24","Chiquita",20.14,437
+"Atún en Lata 500g","7000000000642","Enlatados","2028-11-06","Clemente Jacques",20.65,361
+"Limpiapisos 1L","7000000000643","Limpieza del Hogar","2026-03-17","Lysol",76.87,168
+"Duraznos en Lata 100g","7000000000644","Enlatados","2026-12-30","Clemente Jacques",23.87,26
+"Servilletas de Papel 2L","7000000000645","Limpieza del Hogar","2025-12-23","Clorox",12.49,208
+"Queso Ricotta Premium","7000000000646","Lacteos","2028-02-01","Sello Rojo",23.74,237
+"Pasta Penne 250ml","7000000000647","Granos y Cereales","2025-01-25","La Moderna",8.71,400
+"Tomillo 250g","7000000000648","Especias y Condimentos","2027-04-01","Knorr",18.03,323
+"Champú Light","7000000000649","Higiene Personal","2028-04-15","Colgate",37.0,417
+"Bizcocho 500ml","7000000000650","Panaderia","2026-02-09","Bimbo",54.93,228
+"Queso Gouda 250ml","7000000000651","Lacteos","2025-03-29","Alpura",75.67,26
+"Aceite de Coco Familiar","7000000000652","Aceites y Grasas","2027-03-20","Mazola",69.61,196
+"Papel de Cocina 500g","7000000000653","Limpieza del Hogar","2026-12-26","Ajax",27.18,96
+"Agua Pura Pequeño","7000000000654","Bebidas","2025-11-01","Coca-Cola",7.6,318
+"Clara de Huevo Pasteurizada 200ml","7000000000655","Huevos","2027-10-19","Los Pollos",33.54,282
+"Coliflor 500ml","7000000000656","Verduras","2026-07-27","Del Campo",12.72,215
+"Pimienta Negra 100g","7000000000657","Especias y Condimentos","2028-07-15","Schwartz",39.79,279
+"Tahini 6-pack","7000000000658","Especias y Condimentos","2028-12-31","McCormick",17.57,279
+"Dulce de Leche 330ml","7000000000659","Lacteos","2028-03-04","Sello Rojo",42.68,199
+"Salsa Teriyaki","7000000000660","Especias y Condimentos","2026-10-16","Knorr",25.9,16
+"Sidra de Manzana 1L","7000000000661","Frutas","2027-08-25","Fresh Del Monte",22.59,393
+"Salchicha de Cerdo 500g","7000000000662","Especias y Condimentos","2025-07-25","Knorr",13.67,124
+"Salsa BBQ 1L","7000000000663","Especias y Condimentos","2026-03-26","Schwartz",25.15,409
+"Ciruela 500g","7000000000664","Frutas","2025-12-27","Fresh Del Monte",11.75,163
+"Pizza Congelada Light","7000000000665","Congelados","2025-02-27","Findus",91.83,181
+"Chuleta de Cerdo 1kg","7000000000666","Carnes","2028-02-28","Fud",191.22,429
+"Nuggets de Pollo Premium","7000000000667","Carnes","2026-09-25","Noel",59.84,20
+"Frijoles Rojos 100g","7000000000668","Granos y Cereales","2028-05-17","Maseca",15.63,270
+"Coliflor 750ml","7000000000669","Verduras","2028-06-11","Del Campo",7.64,67
+"Leche de Soya 750ml","7000000000670","Lacteos","2025-05-02","Lala",6.64,301
+"Desinfectante 250ml","7000000000671","Limpieza del Hogar","2027-12-14","Fabuloso",78.85,492
+"Galletas Saladas 6-pack","7000000000672","Panaderia","2028-04-15","Wonder",13.25,155
+"Té Negro 500g","7000000000673","Bebidas","2027-06-14","Del Valle",64.39,492
+"Lechuga 500g","7000000000674","Verduras","2028-12-19","Bio Selecto",29.12,356
+"Cerveza Lager 330ml","7000000000675","Alcoholicas","2026-04-03","Heineken",129.83,418
+"Manteca Vegetal 200ml","7000000000676","Aceites y Grasas","2028-11-11","La Española",49.45,91
+"Harina de Trigo Light","7000000000677","Harinas y Reposteria","2027-03-13","Maseca",47.99,395
+"Chuleta de Cerdo 500g","7000000000678","Carnes","2028-05-18","San Rafael",84.1,415
+"Huevo de Codorniz Light","7000000000679","Huevos","2025-08-02","Los Pollos",57.15,73
+"Té de Manzanilla 100g","7000000000680","Bebidas","2026-12-12","Tropicana",78.68,86
+"Tomate 2L","7000000000681","Verduras","2026-03-06","Del Campo",8.99,35
+"Bebida de Avena 250ml","7000000000682","Desayuno","2025-01-03","General Mills",22.89,225
+"Harina de Maíz 500g","7000000000683","Harinas y Reposteria","2027-04-28","Fleischmann",31.17,194
+"Pasta Espagueti Light","7000000000684","Granos y Cereales","2028-08-26","Knorr",39.36,116
+"Aceite Vegetal 500ml","7000000000685","Aceites y Grasas","2025-03-10","La Española",49.49,164
+"Vinagre de Manzana 500ml","7000000000686","Salsas","2026-12-02","Heinz",16.8,193
+"Aceite Vegetal Premium","7000000000687","Aceites y Grasas","2025-07-10","Patrona",53.8,315
+"Cerveza Oscura","7000000000688","Alcoholicas","2027-06-03","Santa Rita",171.37,85
+"Huevo de Gallina 500g","7000000000689","Huevos","2025-04-20","NaturEgg",19.56,106
+"Jarabe de Maple Premium","7000000000690","Endulzantes","2028-01-12","Splenda",21.79,145
+"Jugo de Uva 250ml","7000000000691","Bebidas","2025-04-12","Del Valle",34.47,282
+"Pan Pita","7000000000692","Panaderia","2027-05-26","Wonder",12.56,422
+"Cepillo de Dientes Mediano","7000000000693","Higiene Personal","2026-02-13","Gillette",23.24,106
+"Aceite de Coco 500ml","7000000000694","Aceites y Grasas","2027-08-28","Carbonell",104.38,158
+"Dulce de Leche Mediano","7000000000695","Lacteos","2027-09-29","Sello Rojo",72.12,136
+"Frijoles Rojos 6-pack","7000000000696","Granos y Cereales","2026-01-14","Mi Cosecha",22.32,196
+"Mandarina Pequeño","7000000000697","Frutas","2025-04-02","Chiquita",12.74,239
+"Salsa Picante 2L","7000000000698","Especias y Condimentos","2028-03-01","Knorr",7.16,386
+"Limpiapisos 500ml","7000000000699","Limpieza del Hogar","2028-09-30","Ariel",37.5,278
+"Uva Morada 100g","7000000000700","Frutas","2028-02-08","NaturFresh",5.26,199
+"Papas a la Francesa Congeladas Familiar","7000000000701","Verduras","2028-01-02","Verde",21.24,480
+"Brócoli 100g","7000000000702","Verduras","2027-09-03","Verde",10.37,203
+"Queso Ricotta Grande","7000000000703","Lacteos","2028-03-15","Dos Pinos",72.53,410
+"Lomo de Cerdo 1kg","7000000000704","Carnes","2025-09-04","Fud",191.37,230
+"Manteca Vegetal 250g","7000000000705","Aceites y Grasas","2026-01-30","Nutrioli",32.62,217
+"Arroz Blanco 250g","7000000000706","Granos y Cereales","2028-07-08","Knorr",12.51,305
+"Vinagre de Manzana 500ml","7000000000707","Salsas","2025-06-28","Lea & Perrins",25.52,204
+"Bistec de Res 2L","7000000000708","Carnes","2027-12-01","Colonial",107.89,448
+"Yogur de Fresa Light","7000000000709","Lacteos","2027-12-07","NaturMilk",63.63,58
+"Piña 1kg","7000000000710","Frutas","2028-03-06","Chiquita",24.75,389
+"Pasta Espagueti Light","7000000000711","Granos y Cereales","2025-07-26","Maseca",40.57,445
+"Muslo de Pollo Familiar","7000000000712","Carnes","2026-06-25","Colonial",95.12,249
+"Lomo de Cerdo Mediano","7000000000713","Carnes","2025-03-18","Fud",59.27,207
+"Champiñones Enlatados Extra","7000000000714","Enlatados","2028-10-26","Herdez",34.28,20
+"Arándano 100g","7000000000715","Frutas","2025-04-11","Fresh Del Monte",30.59,472
+"Salsa BBQ","7000000000716","Especias y Condimentos","2026-11-23","Maggi",33.61,156
+"Refresco de Lima Mediano","7000000000717","Bebidas","2028-11-26","Coca-Cola",56.36,498
+"Leche Evaporada 1kg","7000000000718","Lacteos","2026-09-08","Lala",78.07,227
+"Mermelada de Mora 2L","7000000000719","Frutas","2027-05-04","Fresh Del Monte",25.38,46
+"Jarabe de Maple 250g","7000000000720","Endulzantes","2027-04-14","Splenda",46.53,389
+"Maíz Dulce 1L","7000000000721","Verduras","2027-11-22","Bio Selecto",24.16,34
+"Maíz Enlatado Light","7000000000722","Enlatados","2025-03-01","Herdez",16.08,449
+"Paleta de Limón 1L","7000000000723","Frutas","2026-05-26","Chiquita",4.22,26
+"Plátano 2L","7000000000724","Frutas","2027-01-25","Chiquita",33.47,259
+"Arándano","7000000000725","Frutas","2026-05-11","Dole",16.78,305
+"Filete de Tilapia 330ml","7000000000726","Mariscos","2026-12-07","SeaSelect",74.34,458
+"Vinagre de Manzana 200ml","7000000000727","Salsas","2025-02-26","Heinz",25.46,84
+"Queso Ricotta 250g","7000000000728","Lacteos","2026-03-30","NaturMilk",53.55,347
+"Ajo en Polvo Familiar","7000000000729","Especias y Condimentos","2027-11-18","Maggi",5.7,400
+"Mermelada de Fresa Mediano","7000000000730","Frutas","2025-09-28","Dole",26.95,308
+"Guacamole 100g","7000000000731","Verduras","2026-06-01","Del Campo",19.03,483
+"Refresco de Naranja Familiar","7000000000732","Bebidas","2027-02-11","Coca-Cola",68.87,236
+"Salsa de Soya Pequeño","7000000000733","Especias y Condimentos","2026-09-11","Knorr",28.7,423
+"Detergente Líquido Light","7000000000734","Limpieza del Hogar","2025-07-29","Ajax",10.59,340
+"Queso Parmesano Premium","7000000000735","Lacteos","2028-08-18","Alpura",49.53,145
+"Jugo de Uva Mediano","7000000000736","Bebidas","2025-05-11","Tropicana",30.22,142
+"Jabón de Barra 2L","7000000000737","Higiene Personal","2026-06-19","Head & Shoulders",70.77,488
+"Cerveza Oscura 250g","7000000000738","Alcoholicas","2025-11-04","Casillero del Diablo",107.59,124
+"Tortillas de Maíz 6-pack","7000000000739","Panaderia","2028-09-14","El Molino",24.62,72
+"Cereal de Trigo Mediano","7000000000740","Desayuno","2026-08-29","Kellogg's",35.57,215
+"Mora 1L","7000000000741","Frutas","2028-04-09","Del Campo",29.2,293
+"Hamburguesa Congelada 750ml","7000000000742","Congelados","2028-12-31","Iglo",46.12,274
+"Jabón de Barra 330ml","7000000000743","Higiene Personal","2027-11-05","Oral-B",40.52,88
+"Queso Parmesano 500g","7000000000744","Lacteos","2026-08-25","NaturMilk",12.32,66
+"Fécula de Maíz Premium","7000000000745","Harinas y Reposteria","2026-01-10","Harina Espiga",52.51,461
+"Chocolate en Polvo 100g","7000000000746","Bebidas","2026-12-29","Tropicana",21.75,447
+"Refresco de Naranja 750ml","7000000000747","Bebidas","2027-02-01","Pepsi",24.54,151
+"Ajo Mediano","7000000000748","Verduras","2025-04-20","Del Campo",26.26,299
+"Tocino 500ml","7000000000749","Carnes","2027-08-26","Fud",181.2,257
+"Atún en Lata Grande","7000000000750","Enlatados","2026-09-04","Campbell's",24.46,446
+"Queso Ricotta 1kg","7000000000751","Lacteos","2026-02-15","Lala",30.7,292
+"Cerveza Oscura 1kg","7000000000752","Alcoholicas","2026-10-10","Santa Rita",159.36,93
+"Jalea de Uva Mediano","7000000000753","Frutas","2026-11-13","Dole",26.35,91
+"Café Molido","7000000000754","Bebidas","2027-07-15","Tropicana",25.51,390
+"Mermelada de Mora Light","7000000000755","Frutas","2025-11-21","Chiquita",21.11,391
+"Jalea de Uva 1kg","7000000000756","Frutas","2028-06-12","Dole",19.05,220
+"Mora Mediano","7000000000757","Frutas","2027-02-25","Del Campo",3.17,274
+"Pimienta Negra","7000000000758","Especias y Condimentos","2026-10-22","Maggi",31.49,272
+"Jarabe de Maple","7000000000759","Endulzantes","2028-07-07","Domino",46.15,116
+"Guantes de Hule 200ml","7000000000760","Limpieza del Hogar","2025-09-22","Clorox",18.22,258
+"Filete de Tilapia 500g","7000000000761","Mariscos","2025-05-14","MarMar",213.01,153
+"Jugo de Piña Grande","7000000000762","Bebidas","2028-05-06","Pepsi",44.31,223
+"Cerveza Lager 750ml","7000000000763","Alcoholicas","2027-10-01","Modelo",83.89,97
+"Aceite de Girasol","7000000000764","Aceites y Grasas","2026-04-13","La Española",42.43,68
+"Comino Light","7000000000765","Especias y Condimentos","2027-10-31","McCormick",10.91,188
+"Granola 6-pack","7000000000766","Desayuno","2028-08-04","Kellogg's",35.35,274
+"Detergente Líquido Extra","7000000000767","Limpieza del Hogar","2025-04-09","Ariel",62.96,335
+"Paleta de Mango 1L","7000000000768","Frutas","2028-11-13","Dole",7.28,228
+"Pera Premium","7000000000769","Frutas","2026-06-02","Dole",20.55,79
+"Ajo en Polvo 200ml","7000000000770","Especias y Condimentos","2027-05-12","McCormick",28.16,340
+"Ejote Extra","7000000000771","Verduras","2028-05-25","Bio Selecto",21.62,215
+"Helado de Fresa Grande","7000000000772","Frutas","2028-06-19","Dole",7.36,59
+"Dulce de Leche Mediano","7000000000773","Lacteos","2026-02-11","Dos Pinos",50.68,399
+"Manzana Verde 200ml","7000000000774","Frutas","2025-11-25","Del Campo",4.46,255
+"Cebolla en Polvo 750ml","7000000000775","Especias y Condimentos","2026-04-26","Goya",5.1,344
+"Frijoles Negros Light","7000000000776","Granos y Cereales","2028-10-02","Maseca",27.74,487
+"Frijoles Rojos 500ml","7000000000777","Granos y Cereales","2025-07-27","Mi Cosecha",45.81,330
+"Curry en Polvo 200ml","7000000000778","Especias y Condimentos","2026-06-25","Goya",21.25,52
+"Hamburguesa Congelada 1L","7000000000779","Congelados","2026-08-19","Iglo",59.22,347
+"Café Molido 250ml","7000000000780","Bebidas","2025-07-14","Pepsi",68.84,456
+"Pan Integral 1kg","7000000000781","Panaderia","2028-09-20","Bimbo",41.65,169
+"Manzana Verde Extra","7000000000782","Frutas","2026-07-04","Del Campo",35.5,48
+"Limón 500g","7000000000783","Frutas","2025-08-22","Fresh Del Monte",17.83,493
+"Zanahoria 6-pack","7000000000784","Verduras","2028-11-13","Bio Selecto",25.82,410
+"Mango 250ml","7000000000785","Frutas","2025-09-29","Chiquita",28.76,31
+"Queso Gouda 250ml","7000000000786","Lacteos","2027-05-03","Lala",73.34,248
+"Guacamole Pequeño","7000000000787","Verduras","2026-01-07","Verde",19.12,399
+"Manzana Verde","7000000000788","Frutas","2028-11-02","NaturFresh",35.56,373
+"Cerveza Oscura Mediano","7000000000789","Alcoholicas","2027-09-27","Modelo",46.94,211
+"Coco Rallado 500ml","7000000000790","Frutas","2026-06-20","Dole",27.23,7
+"Desinfectante Light","7000000000791","Limpieza del Hogar","2028-03-03","Lysol",27.92,490
+"Enjuague Bucal Grande","7000000000792","Higiene Personal","2027-12-08","Head & Shoulders",73.5,317
+"Lentejas 100g","7000000000793","Granos y Cereales","2027-09-14","Knorr",21.21,347
+"Paleta de Mango Extra","7000000000794","Frutas","2025-04-22","NaturFresh",3.43,479
+"Aceite de Oliva Mediano","7000000000795","Aceites y Grasas","2027-10-13","Mazola",106.94,39
+"Bicarbonato 750ml","7000000000796","Harinas y Reposteria","2026-05-09","Fleischmann",23.55,143
+"Pan de Molde 100g","7000000000797","Panaderia","2028-02-02","El Molino",41.45,207
+"Papas a la Francesa Congeladas 500ml","7000000000798","Verduras","2027-07-30","NaturVerd",14.44,294
+"Tomate Mediano","7000000000799","Verduras","2027-07-05","Del Campo",10.85,255
+"Polvo para Hornear 250ml","7000000000800","Harinas y Reposteria","2027-04-07","Maseca",27.38,286
+"Carne Molida de Res 500ml","7000000000801","Carnes","2028-05-22","San Rafael",193.74,327
+"Refresco de Cola Premium","7000000000802","Bebidas","2026-02-28","Nestlé",54.09,234
+"Leche de Soya 1L","7000000000803","Lacteos","2026-04-02","Alpura",68.32,170
+"Costilla de Res Extra","7000000000804","Carnes","2027-08-27","Fud",151.83,187
+"Cereal de Maíz 250ml","7000000000805","Desayuno","2025-07-19","Quaker",65.56,114
+"Leche Entera 330ml","7000000000806","Lacteos","2028-07-21","Alpura",77.33,150
+"Carne Molida de Res 330ml","7000000000807","Carnes","2028-12-08","Fud",48.07,460
+"Aceite de Girasol 1kg","7000000000808","Aceites y Grasas","2027-04-19","La Española",30.7,313
+"Sal de Mesa 250ml","7000000000809","Especias y Condimentos","2027-03-16","Knorr",12.55,423
+"Dulce de Leche 750ml","7000000000810","Lacteos","2025-08-09","Lala",61.79,24
+"Quitamanchas 250ml","7000000000811","Limpieza del Hogar","2027-07-12","Lysol",46.59,302
+"Rábano Mediano","7000000000812","Verduras","2025-01-09","NaturVerd",16.85,25
+"Bistec de Res Light","7000000000813","Carnes","2027-09-17","Noel",187.14,400
+"Azúcar Blanca 500g","7000000000814","Endulzantes","2025-09-20","Truvia",13.38,337
+"Pulpo 750ml","7000000000815","Mariscos","2027-10-30","SeaSelect",225.09,215
+"Huevo de Gallina 2L","7000000000816","Huevos","2027-03-26","Los Pollos",58.36,497
+"Jugo de Mango 1kg","7000000000817","Bebidas","2025-10-10","Pepsi",35.96,359
+"Vino Blanco 200ml","7000000000818","Alcoholicas","2028-12-07","Heineken",112.17,161
+"Granola 250g","7000000000819","Desayuno","2026-02-16","Post",32.58,366
+"Jugo de Piña 1kg","7000000000820","Bebidas","2028-12-25","Coca-Cola",53.76,491
+"Azúcar Blanca Premium","7000000000821","Endulzantes","2028-11-22","Truvia",41.12,364
+"Fideos Premium","7000000000822","Granos y Cereales","2027-09-11","Barilla",31.64,483
+"Hilo Dental Premium","7000000000823","Higiene Personal","2026-08-09","Oral-B",89.59,217
+"Pizza Congelada Grande","7000000000824","Congelados","2025-08-07","McCain",27.4,75
+"Pan Pita 250g","7000000000825","Panaderia","2026-07-01","Bimbo",47.01,83
+"Jugo de Manzana 1kg","7000000000826","Bebidas","2025-05-08","Coca-Cola",56.79,152
+"Ajo en Polvo 1L","7000000000827","Especias y Condimentos","2027-01-05","Schwartz",33.49,53
+"Clara de Huevo Pasteurizada 100g","7000000000828","Huevos","2028-08-18","AviCamp",40.26,122
+"Champiñón 1L","7000000000829","Verduras","2027-02-21","Bio Selecto",12.85,490
+"Mantequilla de Maní Premium","7000000000830","Lacteos","2025-04-21","Alpura",5.97,129
+"Pimienta Negra Pequeño","7000000000831","Especias y Condimentos","2026-04-07","Schwartz",36.9,361
+"Avena en Hojuelas Light","7000000000832","Desayuno","2028-01-25","General Mills",64.31,101
+"Mermelada de Mora 200ml","7000000000833","Frutas","2027-07-09","Chiquita",9.56,350
+"Bizcocho 500g","7000000000834","Panaderia","2027-11-19","Marinela",14.21,21
+"Sandía Premium","7000000000835","Frutas","2026-06-26","Fresh Del Monte",7.81,300
+"Queso Gouda","7000000000836","Lacteos","2026-11-08","Alpura",39.97,480
+"Pera en Lata 1kg","7000000000837","Enlatados","2026-10-23","Clemente Jacques",30.89,397
+"Pepino Premium","7000000000838","Verduras","2027-01-04","Verde",4.04,363
+"Café Instantáneo 100g","7000000000839","Bebidas","2026-01-12","Nestlé",44.05,403
+"Rábano Familiar","7000000000840","Verduras","2028-01-18","NaturVerd",17.04,48
+"Bebida de Avena 250g","7000000000841","Desayuno","2028-09-20","Nestlé",39.91,185
+"Jugo de Mango Extra","7000000000842","Bebidas","2027-12-23","Del Valle",40.61,288
+"Helado de Vainilla 250ml","7000000000843","Congelados","2028-10-01","McCain",57.87,124
+"Jabón Líquido Extra","7000000000844","Higiene Personal","2026-05-15","Gillette",96.51,350
+"Vino Blanco 6-pack","7000000000845","Alcoholicas","2025-08-21","Casillero del Diablo",87.88,277
+"Cereal de Arroz","7000000000846","Granos y Cereales","2027-11-25","Barilla",42.17,192
+"Chile Jalapeño Pequeño","7000000000847","Verduras","2027-09-24","Verde",3.23,460
+"Acondicionador 750ml","7000000000848","Higiene Personal","2027-11-19","Dove",22.0,50
+"Aceite de Girasol Premium","7000000000849","Aceites y Grasas","2025-01-16","Mazola",82.69,108
+"Enjuague Bucal Familiar","7000000000850","Higiene Personal","2025-08-01","Dove",32.47,425
+"Limpiavidrios 500ml","7000000000851","Limpieza del Hogar","2028-11-06","Ajax",22.3,236
+"Cereal de Maíz 1L","7000000000852","Desayuno","2025-06-29","General Mills",24.39,92
+"Tahini Premium","7000000000853","Especias y Condimentos","2025-05-25","Maggi",25.12,117
+"Vinagre de Manzana 6-pack","7000000000854","Salsas","2027-07-13","Cholula",35.21,222
+"Café Molido 6-pack","7000000000855","Bebidas","2028-10-10","Tropicana",13.87,4
+"Jabón Líquido 500ml","7000000000856","Higiene Personal","2028-04-14","Gillette",18.87,435
+"Galletas Saladas Grande","7000000000857","Panaderia","2025-08-06","Wonder",23.07,352
+"Refresco de Cola 500ml","7000000000858","Bebidas","2026-07-31","Nestlé",62.4,225
+"Pera","7000000000859","Frutas","2027-08-29","Del Campo",8.78,113
+"Maíz Enlatado Premium","7000000000860","Enlatados","2026-08-28","Campbell's",43.6,74
+"Jugo de Uva","7000000000861","Bebidas","2028-02-08","Coca-Cola",70.61,73
+"Sardinas en Lata","7000000000862","Enlatados","2028-03-18","Clemente Jacques",30.88,276
+"Carne Molida de Res 200ml","7000000000863","Carnes","2026-03-07","San Rafael",157.21,463
+"Cereal de Arroz 250g","7000000000864","Granos y Cereales","2027-04-26","Barilla",45.85,436
+"Chile Jalapeño 500g","7000000000865","Verduras","2026-01-12","NaturVerd",8.18,428
+"Salsa de Soya 250ml","7000000000866","Especias y Condimentos","2026-01-07","Knorr",28.48,291
+"Queso Ricotta Premium","7000000000867","Lacteos","2027-08-03","Dos Pinos",53.35,38
+"Jugo de Piña 2L","7000000000868","Bebidas","2025-07-21","Tropicana",19.81,298
+"Lechuga 330ml","7000000000869","Verduras","2025-09-20","Bio Selecto",20.8,121
+"Pasta Espagueti Extra","7000000000870","Granos y Cereales","2025-05-23","Barilla",45.61,163
+"Lechuga 750ml","7000000000871","Verduras","2028-06-16","Fresh Market",20.46,356
+"Salchicha de Cerdo Light","7000000000872","Especias y Condimentos","2028-03-06","Knorr",17.76,162
+"Sandía","7000000000873","Frutas","2026-10-04","Chiquita",12.11,114
+"Granola 2L","7000000000874","Desayuno","2027-01-07","Quaker",28.06,376
+"Té de Manzanilla Pequeño","7000000000875","Bebidas","2027-07-02","Pepsi",31.91,157
+"Lechuga 250ml","7000000000876","Verduras","2025-12-26","Verde",20.08,42
+"Queso Parmesano 1kg","7000000000877","Lacteos","2028-01-09","Alpura",19.73,376
+"Vino Blanco 500ml","7000000000878","Alcoholicas","2025-02-08","Corona",157.44,324
+"Queso Mozzarella Light","7000000000879","Lacteos","2027-04-10","NaturMilk",62.69,109
+"Crema de Leche 2L","7000000000880","Lacteos","2028-01-19","NaturMilk",72.05,277
+"Pimiento Verde 330ml","7000000000881","Verduras","2027-03-15","NaturVerd",8.25,396
+"Filete de Tilapia 1kg","7000000000882","Mariscos","2027-08-10","MarMar",145.24,47
+"Arándano Grande","7000000000883","Frutas","2025-01-22","Fresh Del Monte",27.52,435
+"Pizza Congelada 500g","7000000000884","Congelados","2027-11-19","Birds Eye",38.34,82
+"Azúcar Blanca Light","7000000000885","Endulzantes","2028-09-12","Truvia",53.35,75
+"Harina de Avena 330ml","7000000000886","Desayuno","2025-03-24","Quaker",33.13,250
+"Curry en Polvo 2L","7000000000887","Especias y Condimentos","2027-01-27","McCormick",13.19,343
+"Ajo en Polvo 330ml","7000000000888","Especias y Condimentos","2027-03-06","Schwartz",21.44,233
+"Vino Tinto 1L","7000000000889","Alcoholicas","2028-08-21","Corona",78.61,361
+"Ejote 2L","7000000000890","Verduras","2028-03-31","Bio Selecto",17.24,90
+"Lima 330ml","7000000000891","Frutas","2028-04-18","Del Campo",27.17,428
+"Bizcocho 2L","7000000000892","Panaderia","2027-02-10","El Molino",58.58,115
+"Maíz Dulce 330ml","7000000000893","Verduras","2026-12-08","Fresh Market",15.63,247
+"Cerveza Lager","7000000000894","Alcoholicas","2027-10-25","Heineken",162.31,226
+"Aceite de Girasol 500ml","7000000000895","Aceites y Grasas","2027-11-20","Nutrioli",84.35,109
+"Piña en Lata 500g","7000000000896","Enlatados","2027-01-12","Del Monte",31.07,419
+"Atún en Lata Familiar","7000000000897","Enlatados","2026-11-08","Del Monte",35.21,247
+"Papel Higiénico Mediano","7000000000898","Limpieza del Hogar","2026-03-08","Ajax",57.26,332
+"Paleta de Limón","7000000000899","Frutas","2026-05-15","Del Campo",4.6,294
+"Filete de Salmón 1kg","7000000000900","Especias y Condimentos","2028-07-13","Knorr",22.94,457
+"Lomo de Cerdo 1L","7000000000901","Carnes","2025-12-07","Suiza",73.9,93
+"Maíz Dulce Extra","7000000000902","Verduras","2028-02-29","Fresh Market",19.85,450
+"Cereal de Trigo 500ml","7000000000903","Desayuno","2026-03-20","General Mills",46.95,242
+"Leche Evaporada 500g","7000000000904","Lacteos","2026-03-26","Sello Rojo",67.28,308
+"Champiñones Enlatados 500g","7000000000905","Enlatados","2028-06-30","Herdez",33.09,136
+"Aceite de Girasol Pequeño","7000000000906","Aceites y Grasas","2028-05-06","Carbonell",79.06,118
+"Lima 1kg","7000000000907","Frutas","2025-08-11","Del Campo",3.61,268
+"Crema Agria Familiar","7000000000908","Lacteos","2025-11-03","NaturMilk",50.41,91
+"Brócoli Extra","7000000000909","Verduras","2025-03-21","Verde",26.58,273
+"Apio 500ml","7000000000910","Verduras","2027-09-15","Del Campo",20.46,462
+"Calamar","7000000000911","Mariscos","2028-10-21","SeaSelect",176.34,268
+"Mango 1L","7000000000912","Frutas","2028-11-29","Fresh Del Monte",22.6,118
+"Guacamole 6-pack","7000000000913","Verduras","2026-12-19","Fresh Market",18.49,380
+"Chispas de Chocolate 250ml","7000000000914","Harinas y Reposteria","2027-05-22","Maizena",14.29,245
+"Mermelada de Fresa 500ml","7000000000915","Frutas","2026-08-04","Chiquita",25.14,279
+"Uva Verde 250g","7000000000916","Frutas","2025-01-12","Fresh Del Monte",29.24,405
+"Leche Descremada Grande","7000000000917","Lacteos","2025-08-30","NaturMilk",43.98,193
+"Gel de Ducha 750ml","7000000000918","Higiene Personal","2027-04-18","Dove",45.79,80
+"Sandía 2L","7000000000919","Frutas","2026-06-20","NaturFresh",34.63,217
+"Hígado de Res Extra","7000000000920","Carnes","2026-07-19","Colonial",198.61,204
+"Extracto de Vainilla Familiar","7000000000921","Harinas y Reposteria","2028-02-05","Selecta",44.84,248
+"Azúcar Blanca Premium","7000000000922","Endulzantes","2028-02-11","Azucarera",33.16,158
+"Jamón 6-pack","7000000000923","Carnes","2025-10-10","Colonial",175.35,338
+"Atún en Lata Pequeño","7000000000924","Enlatados","2028-12-03","Del Monte",43.22,52
+"Comino 6-pack","7000000000925","Especias y Condimentos","2026-11-25","Schwartz",33.03,315
+"Limpiapisos 500g","7000000000926","Limpieza del Hogar","2027-03-08","Ariel",87.17,3
+"Guacamole 1kg","7000000000927","Verduras","2027-08-24","Del Campo",27.92,223
+"Frijoles Negros 2L","7000000000928","Granos y Cereales","2026-03-31","Maseca",22.32,312
+"Crema de Leche 6-pack","7000000000929","Lacteos","2028-06-11","Sello Rojo",54.21,147
+"Granola 1L","7000000000930","Desayuno","2025-12-25","Post",58.42,225
+"Yogur Natural Grande","7000000000931","Lacteos","2026-08-09","Lala",19.61,402
+"Pulpo Grande","7000000000932","Mariscos","2028-12-01","SeaSelect",88.65,87
+"Papel Higiénico 330ml","7000000000933","Limpieza del Hogar","2026-05-05","Ariel",62.4,500
+"Aceite de Oliva 2L","7000000000934","Aceites y Grasas","2027-03-30","Patrona",55.31,203
+"Mora 250g","7000000000935","Frutas","2027-11-27","NaturFresh",3.57,361
+"Galletas de Vainilla Premium","7000000000936","Panaderia","2026-08-06","Bimbo",45.76,287
+"Salchicha de Cerdo 330ml","7000000000937","Especias y Condimentos","2026-07-21","Maggi",12.92,494
+"Stevia 6-pack","7000000000938","Endulzantes","2028-03-23","Splenda",8.24,90
+"Uva Verde 250ml","7000000000939","Frutas","2028-02-19","NaturFresh",5.68,151
+"Leche de Soya Grande","7000000000940","Lacteos","2026-06-12","Dos Pinos",70.71,417
+"Tahini 2L","7000000000941","Especias y Condimentos","2028-11-22","Schwartz",20.5,194
+"Hígado de Res 100g","7000000000942","Carnes","2026-11-27","Noel",193.41,235
+"Papel de Cocina Light","7000000000943","Limpieza del Hogar","2025-02-26","Ajax",48.56,133
+"Galletas de Vainilla 100g","7000000000944","Panaderia","2028-10-18","Pan Artesano",44.46,410
+"Café Molido 330ml","7000000000945","Bebidas","2027-11-24","Pepsi",45.17,359
+"Paleta de Limón 100g","7000000000946","Frutas","2026-08-12","Fresh Del Monte",6.44,345
+"Levadura 500ml","7000000000947","Harinas y Reposteria","2028-02-10","Harina Espiga",51.78,244
+"Café Molido 250g","7000000000948","Bebidas","2028-03-20","Coca-Cola",25.18,485
+"Levadura Mediano","7000000000949","Harinas y Reposteria","2026-02-13","Selecta",19.04,124
+"Nata Montada 250g","7000000000950","Lacteos","2026-04-15","Alpura",20.21,128
+"Paleta de Mango 330ml","7000000000951","Frutas","2025-11-16","NaturFresh",31.82,62
+"Arroz Blanco Extra","7000000000952","Granos y Cereales","2025-01-14","Knorr",39.63,278
+"Pan Blanco 330ml","7000000000953","Panaderia","2028-06-25","Pan Artesano",24.4,460
+"Vino Tinto 2L","7000000000954","Alcoholicas","2027-10-03","Heineken",57.43,392
+"Champiñón 6-pack","7000000000955","Verduras","2026-03-31","Bio Selecto",23.0,66
+"Pan Pita Familiar","7000000000956","Panaderia","2027-09-07","El Molino",56.86,17
+"Apio 6-pack","7000000000957","Verduras","2028-11-06","Bio Selecto",23.73,235
+"Atún en Lata Pequeño","7000000000958","Enlatados","2026-10-09","Herdez",34.12,7
+"Papel Higiénico 6-pack","7000000000959","Limpieza del Hogar","2028-04-04","Fabuloso",18.06,186
+"Huevo de Codorniz 500g","7000000000960","Huevos","2028-01-29","Gold Kist",26.83,138
+"Pimiento Verde 750ml","7000000000961","Verduras","2027-01-20","Verde",7.15,218
+"Cebolla en Polvo 330ml","7000000000962","Especias y Condimentos","2027-01-18","Goya",34.9,144
+"Papa Light","7000000000963","Verduras","2025-09-26","NaturVerd",29.42,352
+"Paprika 2L","7000000000964","Especias y Condimentos","2026-04-28","McCormick",24.44,439
+"Hummus Mediano","7000000000965","Verduras","2025-01-20","NaturVerd",6.95,256
+"Maíz Enlatado Premium","7000000000966","Enlatados","2026-10-09","Herdez",37.49,154
+"Salsa de Soya Light","7000000000967","Especias y Condimentos","2025-04-08","Schwartz",18.94,354
+"Aceite Vegetal 250g","7000000000968","Aceites y Grasas","2026-06-05","Patrona",67.65,323
+"Lentejas 750ml","7000000000969","Granos y Cereales","2026-06-17","Knorr",21.88,287
+"Lomo de Res 330ml","7000000000970","Carnes","2025-02-10","Colonial",100.0,180
+"Leche Evaporada 250g","7000000000971","Lacteos","2028-03-27","NaturMilk",48.19,333
+"Muslo de Pollo 200ml","7000000000972","Carnes","2026-12-29","Suiza",85.27,262
+"Lechuga 500ml","7000000000973","Verduras","2027-02-20","Fresh Market",19.18,238
+"Jabón de Barra Familiar","7000000000974","Higiene Personal","2028-07-16","Head & Shoulders",67.05,208
+"Queso Suizo 500ml","7000000000975","Lacteos","2025-11-28","Dos Pinos",30.77,161
+"Café Instantáneo 2L","7000000000976","Bebidas","2028-05-24","Coca-Cola",53.35,139
+"Cerveza Lager 330ml","7000000000977","Alcoholicas","2028-04-17","Santa Rita",108.14,231
+"Uva Morada 500g","7000000000978","Frutas","2025-02-17","Chiquita",7.63,121
+"Cepillo de Dientes 500ml","7000000000979","Higiene Personal","2026-03-08","Head & Shoulders",29.19,53
+"Lentejas Mediano","7000000000980","Granos y Cereales","2028-01-29","Maseca",8.37,395
+"Arándano 500ml","7000000000981","Frutas","2025-08-01","NaturFresh",12.71,80
+"Arroz Integral 200ml","7000000000982","Granos y Cereales","2026-04-15","Knorr",16.89,146
+"Aguacate 1kg","7000000000983","Bebidas","2027-12-15","Del Valle",67.89,15
+"Mantequilla 750ml","7000000000984","Lacteos","2027-09-03","Alpura",40.04,446
+"Pollo Entero Premium","7000000000985","Carnes","2027-07-01","Colonial",52.97,486
+"Limpiapisos 500g","7000000000986","Limpieza del Hogar","2028-04-25","Lysol",57.81,324
+"Levadura Familiar","7000000000987","Harinas y Reposteria","2027-12-09","Maizena",38.07,274
+"Pollo Entero 500ml","7000000000988","Carnes","2027-06-24","Suiza",82.34,212
+"Vinagre de Manzana 200ml","7000000000989","Salsas","2025-01-22","Hellmann's",10.0,418
+"Chispas de Chocolate 330ml","7000000000990","Harinas y Reposteria","2026-08-11","Selecta",30.05,5
+"Esponja de Cocina Mediano","7000000000991","Limpieza del Hogar","2026-09-06","Ajax",10.73,221
+"Hummus Extra","7000000000992","Verduras","2026-04-19","Bio Selecto",24.31,281
+"Limón Familiar","7000000000993","Frutas","2028-02-23","Chiquita",19.17,128
+"Aceite Vegetal 6-pack","7000000000994","Aceites y Grasas","2026-03-28","La Española",46.3,217
+"Suavizante de Ropa Grande","7000000000995","Limpieza del Hogar","2028-06-09","Fabuloso",74.61,351
+"Salsa Teriyaki Premium","7000000000996","Especias y Condimentos","2026-07-05","Maggi",19.45,437
+"Galletas de Vainilla 1kg","7000000000997","Panaderia","2026-08-17","Marinela",13.74,234
+"Detergente en Polvo 2L","7000000000998","Limpieza del Hogar","2028-12-05","Ajax",59.82,97
+"Té Negro 1kg","7000000000999","Bebidas","2025-04-12","Tropicana",77.73,12
+"Miel de Abeja 200ml","7000000001000","Endulzantes","2026-07-06","Domino",14.5,225

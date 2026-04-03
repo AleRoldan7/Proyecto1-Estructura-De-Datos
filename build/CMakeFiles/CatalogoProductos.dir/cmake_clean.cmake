@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/CatalogoProductos.dir/clases/productos/Producto.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/clases/productos/Producto.cpp.o.d"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/arbol-avl/ArbolAvl.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/arbol-avl/ArbolAvl.cpp.o.d"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/arbol-avl/NodoAvl.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/arbol-avl/NodoAvl.cpp.o.d"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/arbol-b+/ArbolBMas.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/arbol-b+/ArbolBMas.cpp.o.d"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/arbol-b+/NodoBMas.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/arbol-b+/NodoBMas.cpp.o.d"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/arbol-b/ArbolB.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/arbol-b/ArbolB.cpp.o.d"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/arbol-b/NodoB.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/arbol-b/NodoB.cpp.o.d"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/lista-enlazada/ListaEnlazada.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/lista-enlazada/ListaEnlazada.cpp.o.d"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/lista-enlazada/Nodo.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/estructuras/lista-enlazada/Nodo.cpp.o.d"
+  "CMakeFiles/CatalogoProductos.dir/leer-archivos/CargarCSV.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/leer-archivos/CargarCSV.cpp.o.d"
+  "CMakeFiles/CatalogoProductos.dir/main.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/main.cpp.o.d"
+  "CMakeFiles/CatalogoProductos.dir/utils/clean-csv/CleanCSV.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/utils/clean-csv/CleanCSV.cpp.o.d"
+  "CMakeFiles/CatalogoProductos.dir/utils/date/ConvertDate.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/utils/date/ConvertDate.cpp.o.d"
+  "CMakeFiles/CatalogoProductos.dir/utils/logger-error/Logger.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/utils/logger-error/Logger.cpp.o.d"
+  "CMakeFiles/CatalogoProductos.dir/utils/parser-csv/ParserCSV.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/utils/parser-csv/ParserCSV.cpp.o.d"
+  "CMakeFiles/CatalogoProductos.dir/utils/performance/Timer.cpp.o"
+  "CMakeFiles/CatalogoProductos.dir/utils/performance/Timer.cpp.o.d"
+  "CatalogoProductos"
+  "CatalogoProductos.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/CatalogoProductos.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

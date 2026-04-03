@@ -1,0 +1,39 @@
+digraph AVL {
+graph [
+  layout=dot,
+  rankdir=TB,
+  bgcolor="#ffffff",
+  nodesep=0.6,
+  ranksep=0.8
+];
+node [
+  shape=circle,
+  style=filled,
+  fillcolor="#E3F2FD",
+  color="#1E88E5",
+  fontname="Arial",
+  fontsize=11,
+  width=0.8,
+  height=0.8
+];
+edge [
+  color="#555555",
+  arrowsize=0.7
+];
+
+"Jabón de Barra" [label="Jabón de Barra\nQ35.82"];
+"Jabón de Barra" -> "Costilla de Res Premium";
+"Costilla de Res Premium" [label="Costilla de Res Premium\nQ67.47"];
+"Costilla de Res Premium" -> "Agua Mineral 500g";
+"Agua Mineral 500g" [label="Agua Mineral 500g\nQ36.7"];
+"Agua Mineral 500g" -> "Cebolla 250ml";
+"Cebolla 250ml" [label="Cebolla 250ml\nQ4.21"];
+"Costilla de Res Premium" -> "Harina de Avena Premium";
+"Harina de Avena Premium" [label="Harina de Avena Premium\nQ55.43"];
+"Jabón de Barra" -> "Pera en Lata 750ml";
+"Pera en Lata 750ml" [label="Pera en Lata 750ml\nQ13.25"];
+"Pera en Lata 750ml" -> "Manzana Verde Extra";
+"Manzana Verde Extra" [label="Manzana Verde Extra\nQ32.86"];
+"Pera en Lata 750ml" -> "Queso Mozzarella 250g";
+"Queso Mozzarella 250g" [label="Queso Mozzarella 250g\nQ42.9"];
+}

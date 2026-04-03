@@ -5,9 +5,18 @@
 #include "Producto.h"
 
 
+Producto::Producto() {
+    nombre = "";
+    codigo = "";
+    categoria = "";
+    fechaCaducidad = "";
+    marca = "";
+    precio = 0;
+    cantidad = 0;
+}
+
 Producto::Producto(const string &nombre, const string &codigo, const string &categoria, const string &fechaCaducidad,
                    const string &marca, const double &precio, const int &cantidad) {
-
     this->nombre = nombre;
     this->codigo = codigo;
     this->categoria = categoria;
@@ -72,4 +81,3 @@ void Producto::setPrecio(const double &precio) {
 void Producto::setCantidad(const int &cantidad) {
     this->cantidad = cantidad;
 }
-

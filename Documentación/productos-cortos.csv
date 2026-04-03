@@ -1,0 +1,9 @@
+"Nombre","CodigoBarra","Categoria","FechaCaducidad","Marca","Precio","Stock"
+"Jabón de Barra","7000000000001","Higiene Personal","2026-07-18","Colgate",35.82,72
+"Harina de Avena Premium","7000000000002","Desayuno","2025-06-28","Kellogg's",55.43,17
+"Queso Mozzarella 250g","7000000000003","Lacteos","2026-04-22","Dos Pinos",42.9,14
+"Costilla de Res Premium","7000000000004","Carnes","2027-05-10","Suiza",67.47,302
+"Agua Mineral 500g","7000000000005","Bebidas","2028-11-30","Tropicana",36.7,143
+"Pera en Lata 750ml","7000000000006","Enlatados","2025-07-29","Del Monte",13.25,50
+"Manzana Verde Extra","7000000000007","Frutas","2026-06-26","Fresh Del Monte",32.86,374
+"Cebolla 250ml","7000000000008","Verduras","2027-02-15","Verde",4.21,151,dfdfd
